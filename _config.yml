@@ -7,3 +7,12 @@ plugins:
 
 postcss:
   cache: false
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Julian Lindner"
