@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full antialiased">
+
+<head>
+  <meta charSet="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>In the Beginning was the Word - Locolust</title>
+  <meta name="description"
+    content="I’m Julian, rocket ship builder, pizza expert, loves the Giants, parent. This is my personal travel blog." />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16" />
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body class="flex h-full bg-zinc-50 dark:bg-black">
+  <script>
+    !function () {
+      try {
+        var d = document.documentElement,
+          c = d.classList;
+        c.remove('light', 'dark');
+        var e = localStorage.getItem('theme');
+        if ('system' === e || (!e && true)) {
+          var t = '(prefers-color-scheme: dark)',
+            m = window.matchMedia(t);
+          if (m.media !== t || m.matches) {
+            d.style.colorScheme = 'dark';
+            c.add('dark')
+          } else {
+            d.style.colorScheme = 'light';
+            c.add('light')
+          }
+        } else if (e) {
+          c.add(e || '')
+        }
+        if (e === 'light' || e === 'dark')
+          d.style.colorScheme = e
+      } catch (e) { }
+    }()
+  </script>
+  <div class="flex w-full">
+    <div class="fixed inset-0 flex justify-center sm:px-8">
+      <div class="flex w-full max-w-7xl lg:px-8">
+        <div class="w-full bg-white ring-1 ring-zinc-100 dark:bg-zinc-900 dark:ring-zinc-300/20"></div>
+      </div>
+    </div>
+    <div class="relative flex w-full flex-col">
+      <header class="pointer-events-none relative z-50 flex flex-none flex-col"
+        style="height:var(--header-height);margin-bottom:var(--header-mb)">
+        <div class="top-0 z-10 h-16 pt-6" style="position:var(--header-position)">
+          <div class="sm:px-8 top-[var(--header-top,theme(spacing.6))] w-full"
+            style="position:var(--header-inner-position)">
+            <div class="mx-auto w-full max-w-7xl lg:px-8">
+              <div class="relative px-4 sm:px-8 lg:px-12">
+                <div class="mx-auto max-w-2xl lg:max-w-5xl">
+                  <div class="relative flex gap-4">
+                    <div class="flex flex-1">
+                      <div
+                        class="h-10 w-10 rounded-full bg-white/90 p-0.5 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:ring-white/10">
+                        <a aria-label="Home" class="pointer-events-auto" href="/">
+                          <img alt="" fetchPriority="high" width="512" height="512" decoding="async" data-nimg="1"
+                            class="rounded-full bg-zinc-100 object-cover dark:bg-zinc-800 h-9 w-9"
+                            style="color:transparent" sizes="2.25rem" src="https://picsum.photos/640/402/" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="flex flex-1 justify-end md:justify-center">
+                      <div class="pointer-events-auto md:hidden" data-headlessui-state="">
+                        <button
+                          class="group flex items-center rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10 dark:hover:ring-white/20"
+                          type="button" aria-expanded="false" data-headlessui-state="">
+                          Menu
+                          <svg viewBox="0 0 8 6" aria-hidden="true"
+                            class="ml-3 h-auto w-2 stroke-zinc-500 group-hover:stroke-zinc-700 dark:group-hover:stroke-zinc-400">
+                            <path d="M1.75 1.75 4 4.25l2.25-2.5" fill="none" stroke-width="1.5" stroke-linecap="round"
+                              stroke-linejoin="round"></path>
+                          </svg>
+                        </button>
+                      </div>
+                      <div
+                        style="position:fixed;top:1px;left:1px;width:1px;height:0;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0;display:none">
+                      </div>
+                      <nav class="pointer-events-auto hidden md:block">
+                        <ul
+                          class="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
+                          <li>
+                            <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
+                              href="/about">About</a>
+                          </li>
+                          <li>
+                            <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
+                              href="/articles">Articles</a>
+                          </li>
+                          <li>
+                            <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
+                              href="/projects">Projects</a>
+                          </li>
+                          <li>
+                            <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
+                              href="/speaking">Speaking</a>
+                          </li>
+                          <li>
+                            <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
+                              href="/uses">Uses</a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                    <div class="flex justify-end md:flex-1">
+                      <div class="pointer-events-auto">
+                        <button type="button" aria-label="Toggle theme"
+                          class="group rounded-full bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20">
+                          <svg viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                            aria-hidden="true"
+                            class="h-6 w-6 fill-zinc-100 stroke-zinc-500 transition group-hover:fill-zinc-200 group-hover:stroke-zinc-700 dark:hidden [@media(prefers-color-scheme:dark)]:fill-teal-50 [@media(prefers-color-scheme:dark)]:stroke-teal-500 [@media(prefers-color-scheme:dark)]:group-hover:fill-teal-50 [@media(prefers-color-scheme:dark)]:group-hover:stroke-teal-600">
+                            <path
+                              d="M8 12.25A4.25 4.25 0 0 1 12.25 8v0a4.25 4.25 0 0 1 4.25 4.25v0a4.25 4.25 0 0 1-4.25 4.25v0A4.25 4.25 0 0 1 8 12.25v0Z">
+                            </path>
+                            <path
+                              d="M12.25 3v1.5M21.5 12.25H20M18.791 18.791l-1.06-1.06M18.791 5.709l-1.06 1.06M12.25 20v1.5M4.5 12.25H3M6.77 6.77 5.709 5.709M6.77 17.73l-1.061 1.061"
+                              fill="none"></path>
+                          </svg>
+                          <svg viewBox="0 0 24 24" aria-hidden="true"
+                            class="hidden h-6 w-6 fill-zinc-700 stroke-zinc-500 transition dark:block [@media(prefers-color-scheme:dark)]:group-hover:stroke-zinc-400 [@media_not_(prefers-color-scheme:dark)]:fill-teal-400/10 [@media_not_(prefers-color-scheme:dark)]:stroke-teal-500">
+                            <path
+                              d="M17.25 16.22a6.937 6.937 0 0 1-9.47-9.47 7.451 7.451 0 1 0 9.47 9.47ZM12.75 7C17 7 17 2.75 17 2.75S17 7 21.25 7C17 7 17 11.25 17 11.25S17 7 12.75 7Z"
+                              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="flex-auto">
+        <div class="sm:px-8 mt-16 lg:mt-32">
+          <div class="mx-auto w-full max-w-7xl lg:px-8">
+            <div class="relative px-4 sm:px-8 lg:px-12">
+              <div class="mx-auto max-w-2xl lg:max-w-5xl">
+                <div class="xl:relative">
+                  <div class="mx-auto max-w-2xl">
+                    <article>
+                      <header class="flex flex-col">
+                        <h1 class="mt-6 text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+                          In the Beginning was the Word</h1>
+                        <time dateTime="2022-09-05"
+                          class="order-first flex items-center text-base text-zinc-400 dark:text-zinc-500">
+                          <span class="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"></span>
+                          <span class="ml-3">Monday, April 10, 2017</span>
+                        </time>
+                      </header>
+                      <div class="mt-8 prose dark:prose-invert" data-mdx-content="true">
+                        <p>In the beginning was the word: We’d been talking a lot about taking the Trans-Siberian Railway – the pronoun here encompassing my good friend Michael, my little brother Philipp and, well, myself. We had pondered, planned, but we never did it. Until we did.</p>
+
+<h3 id="words">Words</h3>
+
+<p>After the word came the feeling, of heaviness, restlessness, thirst – a knot. It was two years ago that I found myself struggling at work, changing jobs and then abruptly quitting a new business venture a mere couple of months after I’d started it. The prospect of hopping from one work engagement to another started feeling less and less right as the days went by, until one day I surprised Philipp – and myself just as much – by calling him to make the plucky proposition: “Hey, you’re just finishing university and you don’t have a job yet – take the Trans-Siberian Railway with me and travel the world a bit?” After a <em>When?</em>, a _How long for? _and 30 more seconds of suspenseful silence, he committed. And for this spontaneity I love him.</p>
+
+<h3 id="deeds">Deeds</h3>
+
+<p>So two months later, with a little, albeit sketchy, planning, we found ourselves sitting on the train to Vienna, Austria – our first stop.</p>
+
+<p>The plan was to travel from Ketsch, a little town close to Heidelberg, in Baden-Wuerttemberg, Germany – and the place we grew up – to Beijing, China, through eastern Europe, Russia and Mongolia, using no other means of transport but trains. Then on from China we would see Japan and Taiwan and Hong Kong, from where I would embark on a South East Asia trip solo while Philipp would fly back to Germany and find a job. And that is – just about – what we did.</p>
+
+<p>Traveling for me – and this epiphany came with the experience - is not so much about seeing as many sights as one can; especially on these longer trips, it is more about making friends, seeing the countries through the lenses of the locals and, what turned out to be an integral factor for the both of us, eating. Trying all the local specialties there are.</p>
+
+<p>During that long trip, a big first amid a myriad of short, regular vacations and a lot of business travel, for the first time I kept a diary. Well, _diary _is perhaps a bit of an overstatement – let’s just say I took some notes and a lot of pictures.</p>
+
+<h3 id="about">About</h3>
+
+<p>This blog is an attempt to share some of my memories, and maybe also some of the more or less useful experiences with you. But this blog is also an attempt to preserve my memories and keep their flame alight for myself. For a life without memories is no life at all.</p>
+
+<p>Initially we were thinking about how to monetize going to foreign places and have fun and eat all day and quickly come up with a TV show – but I guess Philip Rosenthal beat us to that. So a website it is.</p>
+
+<p>In the general <a href="/travel/">Travel</a> section you’ll find travel posts sorted by region and location. It is mostly recommendations of places I liked, flavored with personal stories and experiences. There is also a <a href="/?cat_ID=2">Food</a> section, containing restaurant or food recommendations, as well as a series of posts about burgers in the various cities of the world – a thing Philipp and I had when we were traveling together and I tried to keep up after. The section I called <a href="/?cat_ID=4">Toolbox</a> is dedicated to travel’s little necessities and contains packing lists and app and travel accessory recommendations. Finally, the <a href="/?cat_ID=1">Miscellaneous</a> section is for, well, random posts.</p>
+
+<p>While the first entries are taking shape, feel free go ahead and take a look at the accompanying <a href="https://www.instagram.com/jlxq0/">Instagram feed</a>.</p>
+
+<p>Enjoy, maybe with the <a href="/miscellaneous/conquer-the-world/">first article</a> – and please don’t hesitate to criticize!</p>
+
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="mt-32 flex-none">
+        <div class="sm:px-8">
+  <div class="mx-auto w-full max-w-7xl lg:px-8">
+    <div class="border-t border-zinc-100 pb-16 pt-10 dark:border-zinc-700/40">
+      <div class="relative px-4 sm:px-8 lg:px-12">
+        <div class="mx-auto max-w-2xl lg:max-w-5xl">
+          <div class="flex flex-col items-center justify-between gap-6 sm:flex-row">
+            <div
+              class="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
+              <a class="transition hover:text-teal-500 dark:hover:text-teal-400" href="/about">About</a>
+              <a class="transition hover:text-teal-500 dark:hover:text-teal-400" href="/projects">Projects</a>
+              <a class="transition hover:text-teal-500 dark:hover:text-teal-400" href="/speaking">Speaking</a>
+              <a class="transition hover:text-teal-500 dark:hover:text-teal-400" href="/uses">Uses</a>
+            </div>
+            <p class="text-sm text-zinc-400 dark:text-zinc-500">
+              © 2024 Julian Lindner. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </footer>
+    </div>
+  </div>
+</body>
+
+</html>
