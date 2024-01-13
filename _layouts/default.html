@@ -12,34 +12,10 @@
     content="I’m Julian, rocket ship builder, pizza expert, loves the Giants, parent. This is my personal travel blog." />
   <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16" />
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  {% include colorscheme-js.html %}
 </head>
 
 <body class="flex h-full bg-zinc-50 dark:bg-black">
-  <script>
-    !function () {
-      try {
-        var d = document.documentElement,
-          c = d.classList;
-        c.remove('light', 'dark');
-        var e = localStorage.getItem('theme');
-        if ('system' === e || (!e && true)) {
-          var t = '(prefers-color-scheme: dark)',
-            m = window.matchMedia(t);
-          if (m.media !== t || m.matches) {
-            d.style.colorScheme = 'dark';
-            c.add('dark')
-          } else {
-            d.style.colorScheme = 'light';
-            c.add('light')
-          }
-        } else if (e) {
-          c.add(e || '')
-        }
-        if (e === 'light' || e === 'dark')
-          d.style.colorScheme = e
-      } catch (e) { }
-    }()
-  </script>
   <div class="flex w-full">
     <div class="relative flex w-full flex-col">
       <header class="pointer-events-none relative z-50 flex flex-none flex-col">
@@ -52,7 +28,8 @@
             <div class="relative px-4 sm:px-8 lg:px-12">
               <div class="mx-auto max-w-2xl lg:max-w-5xl">
                 <div class="max-w-2xl">
-                  <h1 class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">Locolust. At home in Singapore. Home in the world.</h1>
+                  <h1 class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">Locolust.
+                    At home in Singapore. Home in the world.</h1>
                   <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">Hi, I'm Julian, and this is where I mostly
                     publish travel ralated posts and pictures.</p>
                   <div class="mt-6 flex gap-6">
@@ -153,6 +130,7 @@
       </footer>
     </div>
   </div>
+  {% include toggle-js.html %}
 </body>
 
 </html>
