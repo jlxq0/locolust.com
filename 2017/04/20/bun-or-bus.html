@@ -10,10 +10,41 @@
   <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16" />
   <link rel="stylesheet" href="/assets/css/main.css">
   <script>
+  function changeGiscusTheme(theme) {
+    function sendMessage(message) {
+      const iframe = document.querySelector('iframe.giscus-frame');
+      if (!iframe) return;
+      iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+    }
+    sendMessage({
+      setConfig: {
+        theme: theme
+      }
+    });
+  }
+
+  // set giscus theme after giscus has been loaded
+  function handleGiscusMessage(event) {
+    if (event.origin !== 'https://giscus.app') return;
+    if (!(typeof event.data === 'object' && event.data.giscus)) return;
+
+    // const giscusData = event.data.giscus;
+    changeGiscusTheme(globalColorMode);
+    window.removeEventListener('message', handleGiscusMessage);
+  }
+
+  window.addEventListener('message', handleGiscusMessage);
+
   if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
     document.documentElement.classList.add('dark');
+    changeGiscusTheme('dark');
+    globalColorMode = 'dark';
+    console.log('dark');
   } else {
-    document.documentElement.classList.remove('dark')
+    document.documentElement.classList.remove('dark');
+    changeGiscusTheme('light');
+    globalColorMode = 'light';
+    console.log('light');
   }
 </script>
 
@@ -185,6 +216,24 @@
 
                       </div>
                     </article>
+                    <div>
+                      <script src="https://giscus.app/client.js"
+                        data-repo="jlxq0/locolust.com"
+                        data-repo-id="R_kgDOLDanWQ"
+                        data-category="Website Comments"
+                        data-category-id="DIC_kwDOLDanWc4Cckvm"
+                        data-mapping="pathname"
+                        data-strict="0"
+                        data-reactions-enabled="1"
+                        data-emit-metadata="0"
+                        data-input-position="top"
+                        data-theme="dark"
+                        data-lang="en"
+                        data-loading="lazy"
+                        crossorigin="anonymous"
+                        async>
+                      </script>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -223,27 +272,15 @@
   var themeToggleBtn = document.getElementById('theme-toggle');
 
   themeToggleBtn.addEventListener('click', function () {
-    // if set via local storage previously
-    if (localStorage.getItem('color-theme')) {
-      if (localStorage.getItem('color-theme') === 'light') {
-        document.documentElement.classList.add('dark');
-        localStorage.setItem('color-theme', 'dark');
-      } else {
-        document.documentElement.classList.remove('dark');
-        localStorage.setItem('color-theme', 'light');
-      }
-
-      // if NOT set via local storage previously
-    } else {
       if (document.documentElement.classList.contains('dark')) {
         document.documentElement.classList.remove('dark');
         localStorage.setItem('color-theme', 'light');
+        changeGiscusTheme('light');
       } else {
         document.documentElement.classList.add('dark');
         localStorage.setItem('color-theme', 'dark');
+        changeGiscusTheme('dark');
       }
-    }
-
   });
 </script>
 
