@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full antialiased">
+
+<head>
+  <meta charSet="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>From Bucharest to Chișinău - Locolust</title>
+  <meta name="description"
+    content="I’m Julian, rocket ship builder, pizza expert, loves the Giants, parent. This is my personal travel blog." />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16" />
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script>
+  function changeGiscusTheme(theme) {
+    function sendMessage(message) {
+      const iframe = document.querySelector('iframe.giscus-frame');
+      if (!iframe) return;
+      iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+    }
+    sendMessage({
+      setConfig: {
+        theme: theme
+      }
+    });
+  }
+
+  // set giscus theme after giscus has been loaded
+  function handleGiscusMessage(event) {
+    if (event.origin !== 'https://giscus.app') return;
+    if (!(typeof event.data === 'object' && event.data.giscus)) return;
+
+    // const giscusData = event.data.giscus;
+    changeGiscusTheme(globalColorMode);
+    window.removeEventListener('message', handleGiscusMessage);
+  }
+
+  window.addEventListener('message', handleGiscusMessage);
+
+  if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.classList.add('dark');
+    changeGiscusTheme('dark');
+    globalColorMode = 'dark';
+    console.log('dark');
+  } else {
+    document.documentElement.classList.remove('dark');
+    changeGiscusTheme('light');
+    globalColorMode = 'light';
+    console.log('light');
+  }
+</script>
+
+</head>
+
+<body class="flex h-full bg-zinc-50 dark:bg-black">
+  <div class="flex w-full">
+    <div class="fixed inset-0 flex justify-center sm:px-8">
+      <div class="flex w-full max-w-7xl lg:px-8">
+        <div class="w-full bg-white ring-1 ring-zinc-100 dark:bg-zinc-900 dark:ring-zinc-300/20"></div>
+      </div>
+    </div>
+    <div class="relative flex w-full flex-col">
+      <header class="pointer-events-none relative z-50 flex flex-none flex-col" style="height:var(--header-height);margin-bottom:var(--header-mb)">
+        <div class="top-0 z-10 h-16 pt-6" style="position:var(--header-position)">
+  <div class="sm:px-8 top-[var(--header-top,theme(spacing.6))] w-full" style="position:var(--header-inner-position)">
+    <div class="mx-auto w-full max-w-7xl lg:px-8">
+      <div class="relative px-4 sm:px-8 lg:px-12">
+        <div class="mx-auto max-w-2xl lg:max-w-5xl">
+          <div class="relative flex gap-4">
+            <div class="flex flex-1">
+              <div>
+                <a aria-label="Home" class="pointer-events-auto" href="/">
+                  <svg class="hidden dark:block" width="144px" height="36px" viewBox="0 0 120 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs>
+                      <linearGradient x1="50%" y1="0%" x2="50%" y2="85%" id="lg1">
+                        <stop stop-color="#F3F3F3" offset="0%"></stop>
+                        <stop stop-color="#E6E6E6" offset="100%"></stop>
+                      </linearGradient>
+                    </defs>
+                    <g id="p1" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+                      <rect id="r1" fill="url(#lg1)" x="8" y="1.2" width="14" height="7"></rect>
+                      <rect id="r2" fill="#ffffff" x="0" y="8" width="22" height="10"></rect>
+                      <text id="Locolust" font-size="24" font-weight="bold"
+                        fill="#ffffff">
+                        <tspan x="23" y="18">Locolust</tspan>
+                      </text>
+                    </g>
+                  </svg>
+                  <svg class="dark:hidden" width="144px" height="36px" viewBox="0 0 120 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs>
+                        <linearGradient x1="50%" y1="0%" x2="50%" y2="85%" id="lg1">
+                            <stop stop-color="#AAAAAA" offset="0%"></stop>
+                            <stop stop-color="#444444" offset="100%"></stop>
+                        </linearGradient>
+                    </defs>
+                    <g id="p1" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+                        <rect id="r1" fill="url(#lg1)" x="8" y="1.2" width="14" height="7"></rect>
+                        <rect id="r2" fill="#000000" x="0" y="8" width="22" height="10"></rect>
+                        <text id="Locolust" font-size="24" font-weight="bold" fill="#000000">
+                            <tspan x="23" y="18">Locolust</tspan>
+                        </text>
+                    </g>
+                </svg>
+                </a>
+              </div>
+            </div>
+            <div class="flex flex-1 justify-end md:justify-center">
+              <div class="pointer-events-auto md:hidden" data-headlessui-state="">
+                <button
+                  class="group flex items-center rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10 dark:hover:ring-white/20"
+                  type="button" aria-expanded="false" data-headlessui-state="" onclick="toggleMenu()">
+                  Menu
+                  <svg viewBox="0 0 8 6" aria-hidden="true"
+                    class="ml-3 h-auto w-2 stroke-zinc-500 group-hover:stroke-zinc-700 dark:group-hover:stroke-zinc-400">
+                    <path d="M1.75 1.75 4 4.25l2.25-2.5" fill="none" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round"></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div id="mainmenu" class="hidden md:hidden mt-6 absolute z-50">
+                <ul class="pointer-events-auto flex flex-col mt-4 space-y-4 text-sm font-medium text-zinc-800 bg-white/90 rounded-lg shadow-lg ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
+                  <li>
+                    <a class="block px-4 pt-3 transition hover:text-teal-500 dark:hover:text-teal-400" href="/">Home</a>
+                  </li>
+                  <li>
+                    <a class="block px-4 py-1 transition hover:text-teal-500 dark:hover:text-teal-400" href="/travel/asia">Asia</a>
+                  </li>
+                  <li>
+                    <a class="block px-4 py-1 transition hover:text-teal-500 dark:hover:text-teal-400" href="/travel/africa">Africa</a>
+                  </li>
+                  <li>
+                    <a class="block px-4 py-1 transition hover:text-teal-500 dark:hover:text-teal-400" href="/travel/europe">Europe</a>
+                  </li>
+                  <li>
+                    <a class="block px-4 py-1 transition hover:text-teal-500 dark:hover:text-teal-400" href="/travel/north-america">North America</a>
+                  </li>
+                  <li>
+                    <a class="block px-4 py-1 transition hover:text-teal-500 dark:hover:text-teal-400" href="/travel/oceania">Oceania</a>
+                  </li>
+                  <li>
+                    <a class="block px-4 pb-3 transition hover:text-teal-500 dark:hover:text-teal-400" href="/about">About</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div
+                style="position:fixed;top:1px;left:1px;width:1px;height:0;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0;display:none">
+              </div>
+              <nav class="pointer-events-auto hidden md:block">
+                <ul
+                  class="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10"z>
+                  <li>
+                    <a class="relative block px-3 py-2 transition text-teal-500 dark:text-teal-400"
+                      href="/">Home<span class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0 dark:from-teal-400/0 dark:via-teal-400/40 dark:to-teal-400/0"></span>
+                    </a>
+                  </li>
+                  <li class="group relative">
+                    <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
+                      href="/travel/asia">Asia</a>
+                    <ul class="absolute left-0 w-48 mt-2 space-y-2 bg-white text-zinc-800 rounded-lg shadow-md dark:bg-zinc-800 dark:text-zinc-200 transition-opacity duration-200 opacity-0 group-hover:opacity-100">
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/travel/asia/china">China</a>
+                      </li>
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/travel/asia/singapore">Singapore</a>
+                      </li>
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/travel/asia/vietnam">Vietnam</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="group relative">
+                    <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
+                      href="/articles">Africa</a>
+                    <ul class="absolute left-0 w-48 mt-2 space-y-2 bg-white text-zinc-800 rounded-lg shadow-md dark:bg-zinc-800 dark:text-zinc-200 transition-opacity duration-200 opacity-0 group-hover:opacity-100">
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/articles/travel">Egypt</a>
+                      </li>
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/articles/food">Kenya</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="group relative">
+                    <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
+                      href="/articles">Europe</a>
+                    <ul class="absolute left-0 w-48 mt-2 space-y-2 bg-white text-zinc-800 rounded-lg shadow-md dark:bg-zinc-800 dark:text-zinc-200 transition-opacity duration-200 opacity-0 group-hover:opacity-100">
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/articles/travel">France</a>
+                      </li>
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/articles/food">Germany</a>
+                      </li>
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/articles/misc">Hungary</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="group relative">
+                    <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
+                      href="/articles">North&nbsp;America</a>
+                    <ul class="absolute left-0 w-48 mt-2 space-y-2 bg-white text-zinc-800 rounded-lg shadow-md dark:bg-zinc-800 dark:text-zinc-200 transition-opacity duration-200 opacity-0 group-hover:opacity-100">
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/articles/travel">Canada</a>
+                      </li>
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/articles/food">USA</a>
+                      </li>
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/articles/misc">Mexico</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="group relative">
+                    <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
+                      href="/articles">Oceania</a>
+                    <ul class="absolute left-0 w-48 mt-2 space-y-2 bg-white text-zinc-800 rounded-lg shadow-md dark:bg-zinc-800 dark:text-zinc-200 transition-opacity duration-200 opacity-0 group-hover:opacity-100">
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/articles/travel">Fiji</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
+                      href="/">About</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="flex justify-end md:flex-1">
+              <div class="pointer-events-auto">
+                <button type="button" aria-label="Toggle theme" id="theme-toggle"
+                  class="group rounded-full bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20">
+                  <svg viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                    aria-hidden="true"
+                    class="h-6 w-6 fill-zinc-100 stroke-zinc-500 transition group-hover:fill-zinc-200 group-hover:stroke-zinc-700 dark:hidden [@media(prefers-color-scheme:dark)]:fill-teal-50 [@media(prefers-color-scheme:dark)]:stroke-teal-500 [@media(prefers-color-scheme:dark)]:group-hover:fill-teal-50 [@media(prefers-color-scheme:dark)]:group-hover:stroke-teal-600">
+                    <path
+                      d="M8 12.25A4.25 4.25 0 0 1 12.25 8v0a4.25 4.25 0 0 1 4.25 4.25v0a4.25 4.25 0 0 1-4.25 4.25v0A4.25 4.25 0 0 1 8 12.25v0Z">
+                    </path>
+                    <path
+                      d="M12.25 3v1.5M21.5 12.25H20M18.791 18.791l-1.06-1.06M18.791 5.709l-1.06 1.06M12.25 20v1.5M4.5 12.25H3M6.77 6.77 5.709 5.709M6.77 17.73l-1.061 1.061"
+                      fill="none"></path>
+                  </svg>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"
+                    class="hidden h-6 w-6 fill-zinc-700 stroke-zinc-500 transition dark:block [@media(prefers-color-scheme:dark)]:group-hover:stroke-zinc-400 [@media_not_(prefers-color-scheme:dark)]:fill-teal-400/10 [@media_not_(prefers-color-scheme:dark)]:stroke-teal-500">
+                    <path
+                      d="M17.25 16.22a6.937 6.937 0 0 1-9.47-9.47 7.451 7.451 0 1 0 9.47 9.47ZM12.75 7C17 7 17 2.75 17 2.75S17 7 21.25 7C17 7 17 11.25 17 11.25S17 7 12.75 7Z"
+                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </header>
+      <main class="flex-auto">
+        <div class="sm:px-8 mt-16 lg:mt-32">
+          <div class="mx-auto w-full max-w-7xl lg:px-8">
+            <div class="relative px-4 sm:px-8 lg:px-12">
+              <div class="mx-auto max-w-2xl lg:max-w-5xl">
+                <div class="xl:relative">
+                  <div class="mx-auto max-w-2xl">
+                    <article class="mb-12">
+                      <header class="flex flex-col">
+                        <h1 class="mt-6 text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+                          From Bucharest to Chișinău</h1>
+                        <time dateTime="2022-09-05"
+                          class="order-first flex items-center text-base text-zinc-400 dark:text-zinc-500">
+                          <span class="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"></span>
+                          <span class="ml-3">Sunday, April 30, 2017</span>
+                        </time>
+                      </header>
+                      <div class="mt-8 prose dark:prose-invert" data-mdx-content="true">
+                        <p>The train ride from <a href="/?p=783">Bucharest</a> to Chișinău is unspectacular. We arrive almost in time at Chișinăus main station. And that is where we both feel the journey starts to begin. Where things start to become really different from what we are used to. The first time we really feel in a different world.</p>
+
+<p>If you had asked us before why we went to Chișinău, we wouldn’t have known. It just wasen route, so we decided to stop for a day. And I am happy we did. Not because it is beautiful or because of the many sights – it is not and there are no sights. But for the experience.</p>
+
+<p>So we arrive at the main station. It is an impressive building with huge halls and you immediately smell Soviet history. The funny thing is: It is empty. It is 10am on a Friday, and it is empty. And I am not talking “not crowded”, I am talking “after the few people who alighted the train with us left, there is not a single person on this huge hall”. We look around and start to realize why: There are only four trains leaving today, the next one in four hours. Our search for a counter is successful in the last corner of the huge hall. With hand and feet we try to explain that we want to go to Kiev. The lady understands, asks us which train we want to take – and obviously, anything else would be stupid, right, we take the faster one. Much faster; by a couple of hours. Why would anyone take the long route?</p>
+
+<p>We both have more or less heavy backpacks, the train is only leaving at 11:30pm, so we decide to look for a luggage storage. Walking around we find a place in a smaller hall. There is a woman standing in front, exactly looking like the cliche Moldovan woman I would cast for a bad movie. I ask if she speaks English. She doesn’t. German? No. Google translate then.</p>
+
+<blockquote>
+  <p>“Can we store our backpacks?” I ask her.</p>
+
+  <p>“Da. Da. No problem. Bucharest?”</p>
+
+  <p>“No, that’s where we come from. We are going to Kiev tonight.”</p>
+
+  <p>“Kiev. Da.”</p>
+</blockquote>
+
+<p>I show her my ticket, pointing at the time – 11:30pm – because I am a little afraid they will close earlier. She looks at it. A minute. Two minutes. Her face brightens up and she says</p>
+
+<blockquote>
+  <p>“Kiev! Da. Da. Da. Ok. Ok.”</p>
+</blockquote>
+
+<p>And then she walks away. I have the very clear impression we should wait while she double checks with someone that her luggage place will be open late at night. So we wait. Five minutes. Ten minutes. Longer. Philipp keeps nagging me she won’t come back and that he has to pee. I send him away and continue waiting.</p>
+
+<p>A Moldovan lady is driving up and down the huge empty hall on one of those mobile cleaning machines in an almost kafkaesque scene. I’m watching her, when I hear the luggage lady complaining noisily – apparently Philipp went to the staff’s bathroom.</p>
+
+<p>With our backpacks we enter the city. It is the first one without a McDonald’s at the station. But there is a kind of market all around it. Hundreds of merchants offer almost everything. Nokia doesn’t have to revive the 3310. There are thousands of the original ones here. Also floppy disk drives, screws, soap, toys, and, primarily, a huge amount of clothes.</p>
+
+<p>We continue to walk in the direction of the park, which is Chișinăus number one sight, but stop again after a few hundred meters because we see the <a href="https://www.facebook.com/notabene.md/?rf=356132601097262">Nota Bene</a>, a little café, and get hungry. Breakfast looks good in the menu, not so good in real life, but that doesn’t stop us from eating every last bite. And stay for two more hours, because of the fast wifi and the power sockets on every table – digital detox is not going very well for us.</p>
+
+<p><img src="https://atomic-temporary-205398276.wpcomstaging.com/wp-content/uploads/2017/04/JLT20791-1024x683.jpg" alt="" /></p>
+
+<p>With new found strength and recharged batteries on our way to the park, we first realize that there are no markings on the streets. The cars – from Lada to Porsche we see everything – follow the lines only existing in their heads precisely though. There is even an imaginary bus lane.</p>
+
+<p>The park … well, it is a park. It is nice to sit there, read a little, and watch the young people doing all kinds of acrobatic stuff. There is a guy doing backflips in a row for minutes. Other ones jump over benches or walk around on their hands. Our excitement about the fountain, the number one thing to see in Chisinau, according to tripadvisor, is limited.</p>
+
+<p>On our way to the station we make a stop at Smokehouse, a mix of pub, burger restaurant and craft beer house, which is actually quite nice. And then, suddenly, I realize why I did not plan to take the short route to Kiev back at home: Because this route is the one through Transnistria. We google – and that doesn’t calm us down. Tough border controls. Some travelers apparently got taken away their passports and never saw them again. You need to “tip” (bribe) officials. And obviously there is even useful information about that in the darker corners of the vast internet: Do not give more than 20 dollars – they might think you are rich and keep you. Aha.</p>
+
+<p>When finally boarding the train, we get stopped by our train attendant. You have to know: At least since Bucharest, every wagon has its very own attendant who is responsible for it. So we get stopped by, as we should learn later on, Natalya and asked what we want. She does not speak English. And by that I mean no English. Not even “yes” or “no”. Our own five words of Russian do not help much. Again, with hand, feet and google translate we make her understand that we want to go to Kiev. She is laughing. Calls a colleague. Both are laughing. She’s taking my passport and tries to figure out where I am from. The both of them laugh even more. Questioningly I look after Natalyas colleague disappearing with my passport, but Natalya grabs me and pushes me into the wagon. She is shaking of laughter. She shows us our compartment. We are the only passengers in the whole wagon. On the tour she is giving us she points at the toilet and the toilet paper, crosses her arms and says, very strict, “нет” (no). Ok.</p>
+
+<p>The compartment and the plank beds are ok. Natalya makes us a tea. Her smiling disappears when she realizes I do not have (Ukrainian) money to pay her for the souvenirs she wants to give us – inflatable little Kremlins and “original Russian officer knives” (with a Swiss cross).</p>
+
+<p>I’m reading until 1am, then fall asleep.</p>
+
+<p>I wake up and a soldier in full battle suit is sitting next to my feet, looking at me. I pass him my documents. He is copying everything into some kind of very old laptop, gives us our second stamp and disappears without much ado. Five minutes later, his colleague wakes us up again. Harshly she compliments us out of the compartment and then proceeds with the quickest luggage control ever: She lifts our beds, lets her flashlight flash up for half a second – and then she is gone.</p>
+
+<p>After a while we both fall asleep again – probably <a href="/travel/europe/ukraine/from-chisinau-to-kiev">dreaming about Kiev</a>.</p>
+
+                      </div>
+                    </article>
+                    <div>
+                      <script src="https://giscus.app/client.js"
+                        data-repo="jlxq0/locolust.com"
+                        data-repo-id="R_kgDOLDanWQ"
+                        data-category="Website Comments"
+                        data-category-id="DIC_kwDOLDanWc4Cckvm"
+                        data-mapping="pathname"
+                        data-strict="0"
+                        data-reactions-enabled="1"
+                        data-emit-metadata="0"
+                        data-input-position="top"
+                        data-theme="dark"
+                        data-lang="en"
+                        data-loading="lazy"
+                        crossorigin="anonymous"
+                        async>
+                      </script>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="mt-32 flex-none">
+        <div class="sm:px-8">
+  <div class="mx-auto w-full max-w-7xl lg:px-8">
+    <div class="border-t border-zinc-100 pb-16 pt-10 dark:border-zinc-700/40">
+      <div class="relative px-4 sm:px-8 lg:px-12">
+        <div class="mx-auto max-w-2xl lg:max-w-5xl">
+          <div class="flex flex-col items-center justify-between gap-6 sm:flex-row">
+            <div
+              class="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
+              <a class="transition hover:text-teal-500 dark:hover:text-teal-400" href="/about">About</a>
+              <a class="transition hover:text-teal-500 dark:hover:text-teal-400" href="/projects">Projects</a>
+              <a class="transition hover:text-teal-500 dark:hover:text-teal-400" href="/speaking">Speaking</a>
+              <a class="transition hover:text-teal-500 dark:hover:text-teal-400" href="/uses">Uses</a>
+            </div>
+            <p class="text-sm text-zinc-400 dark:text-zinc-500">
+              © 2024 Julian Lindner. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </footer>
+    </div>
+  </div>
+  <script defer>
+  var themeToggleBtn = document.getElementById('theme-toggle');
+
+  themeToggleBtn.addEventListener('click', function () {
+    if (document.documentElement.classList.contains('dark')) {
+      document.documentElement.classList.remove('dark');
+      localStorage.setItem('color-theme', 'light');
+      changeGiscusTheme('light');
+    } else {
+      document.documentElement.classList.add('dark');
+      localStorage.setItem('color-theme', 'dark');
+      changeGiscusTheme('dark');
+    }
+  });
+
+  function toggleMenu() {
+    var menu = document.getElementById("mainmenu");
+    menu.classList.toggle("hidden");
+  }
+</script>
+
+</body>
+
+</html>
