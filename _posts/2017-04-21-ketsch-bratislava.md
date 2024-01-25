@@ -1,5 +1,8 @@
 ---
-title:  "From Ketsch to Bratislava"
+title: "From Ketsch to Bratislava"
+categories: travel europe austria
+tags: bratislava budapest castle eastern-europe food hyperloop mannheim munich podcast russian-visa sachertorte sightseeing train vienna visa
+excerpt: "It's 7:03 AM but the promise of spectacular new scenery has long shaken off snooze and stirred us alert. Now, after leaving home, we are on the bus to Mannheim, some 40 minutes away from the next bigger station. I'm dwelling on Mannheim now just as I dwelt on it then - in passing. Stunning at second sight, with a charm not immediately discernible from the greyer shades of industrial architecture, this City of Squares is also famed for the grid-like pattern of its plazas."
 ---
 
 

@@ -1,5 +1,8 @@
 ---
 title: From Budapest to Bucharest
+categories: travel europe romania
+tags: budapest bucharest bundaberg chisinau city-exploration eastern-europe german-history grivita moldova overnight-train palace-of-parliament romanian-cities transylvania train-journey travel
+excerpt: "The trip from Budapest to Bucharest is our first overnight in a train. Actually, it is our first overnight in a train ever. And it was nice, after all. There is five of us in a six-bed-compartment. Suzanna, a woman in her 40s, starts conversation immediately – and soon we realize she is a very well-read woman who impresses us with a lot of knowledge about German history. We learn a lot about Kronstadt."
 ---
 
 The trip from [Budapest](/?p=2028) to Bucharest is our first overnight in a train. Actually, it is our first overnight in a train ever. And it was nice, after all. There is five of us in a six-bed-compartment. Suzanna, a woman in her 40s, starts conversation immediately – and soon we realize she is a very well-read woman who impresses us with a lot of knowledge about German history. We learn a lot about [Kronstadt](https://en.wikipedia.org/wiki/Bra%C8%99ov), formerly Stalin City, her hometown in Transylvania. The other two are a couple whose names I forgot. They are constantly working on their laptops and the only time they look up is when they hear we are spending the day in Bucharest: They tell us, there is not much to do, but we should go to "Garden Eden". Which was a great tip.
