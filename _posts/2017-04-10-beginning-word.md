@@ -10,7 +10,7 @@ In the beginning was the word: We’d been talking a lot about taking the Trans-
 
 ### Words
 
-After the word came the feeling, of heaviness, restlessness, thirst – a knot. It was two years ago that I found myself struggling at work, changing jobs and then abruptly quitting a new business venture a mere couple of months after I’d started it. The prospect of hopping from one work engagement to another started feeling less and less right as the days went by, until one day I surprised Philipp – and myself just as much – by calling him to make the plucky proposition: "Hey, you’re just finishing university and you don't have a job yet – take the Trans-Siberian Railway with me and travel the world a bit?" After a _When?_, a _How long for? _and 30 more seconds of suspenseful silence, he committed. And for this spontaneity I love him.
+After the word came the feeling, of heaviness, restlessness, thirst – a knot. It was two years ago that I found myself struggling at work, changing jobs and then abruptly quitting a new business venture a mere couple of months after I’d started it. The prospect of hopping from one work engagement to another started feeling less and less right as the days went by, until one day I surprised Philipp – and myself just as much – by calling him to make the plucky proposition: "Hey, you’re just finishing university and you don't have a job yet – take the Trans-Siberian Railway with me and travel the world a bit?" After a _When?_, a _How long for?_ and 30 more seconds of suspenseful silence, he committed. And for this spontaneity I love him.
 
 ### Deeds
 
@@ -20,7 +20,7 @@ The plan was to travel from Ketsch, a little town close to Heidelberg, in Baden-
 
 Traveling for me – and this epiphany came with the experience - is not so much about seeing as many sights as one can; especially on these longer trips, it is more about making friends, seeing the countries through the lenses of the locals and, what turned out to be an integral factor for the both of us, eating. Trying all the local specialties there are.
 
-During that long trip, a big first amid a myriad of short, regular vacations and a lot of business travel, for the first time I kept a diary. Well, _diary _is perhaps a bit of an overstatement – let's just say I took some notes and a lot of pictures.
+During that long trip, a big first amid a myriad of short, regular vacations and a lot of business travel, for the first time I kept a diary. Well, _diary_ is perhaps a bit of an overstatement – let's just say I took some notes and a lot of pictures.
 
 ### About
 

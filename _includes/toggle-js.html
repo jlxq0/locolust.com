@@ -2,14 +2,19 @@
   var themeToggleBtn = document.getElementById('theme-toggle');
 
   themeToggleBtn.addEventListener('click', function () {
-      if (document.documentElement.classList.contains('dark')) {
-        document.documentElement.classList.remove('dark');
-        localStorage.setItem('color-theme', 'light');
-        changeGiscusTheme('light');
-      } else {
-        document.documentElement.classList.add('dark');
-        localStorage.setItem('color-theme', 'dark');
-        changeGiscusTheme('dark');
-      }
+    if (document.documentElement.classList.contains('dark')) {
+      document.documentElement.classList.remove('dark');
+      localStorage.setItem('color-theme', 'light');
+      changeGiscusTheme('light');
+    } else {
+      document.documentElement.classList.add('dark');
+      localStorage.setItem('color-theme', 'dark');
+      changeGiscusTheme('dark');
+    }
   });
+
+  function toggleMenu() {
+    var menu = document.getElementById("mainmenu");
+    menu.classList.toggle("hidden");
+  }
 </script>
