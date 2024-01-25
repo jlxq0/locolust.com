@@ -8,6 +8,8 @@ plugins:
 postcss:
   cache: false
 
+permalink: /:categories/:title
+
 defaults:
   -
     scope:

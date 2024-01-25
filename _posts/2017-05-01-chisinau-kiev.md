@@ -1,5 +1,7 @@
 ---
 title: From Chișinău to Kiev
+slug: from-chisinau-to-kiev
+categories: travel europe ukraine
 ---
 
 

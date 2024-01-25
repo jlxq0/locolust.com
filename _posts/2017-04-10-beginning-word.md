@@ -1,6 +1,7 @@
 ---
 title: "In the Beginning was the Word"
-categories: travel europe germany
+slug: in-the-beginning-was-the-word
+categories: misc
 tags: baden-wuerttemberg beijing china diary eastern-europe food-recommendations germany heidelberg hong-kong japan julian ketsch local-cuisine michael mongolia philipp russia south-east-asia spontaneous-travel taiwan travel travel-planning trans-siberian-railway
 excerpt: "In the beginning was the word: We’d been talking a lot about taking the Trans-Siberian Railway – the pronoun here encompassing my good friend Michael, my little brother Philipp and, well, myself. We had pondered, planned, but we never did it. Until we did."
 ---

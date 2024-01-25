@@ -1,5 +1,7 @@
 ---
 title: From Bucharest to Chișinău
+slug: from-bucharest-to-chisinau
+categories: travel europe moldova
 ---
 
 

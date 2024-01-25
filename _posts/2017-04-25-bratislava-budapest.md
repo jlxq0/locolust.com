@@ -1,5 +1,6 @@
 ---
 title: "From Bratislava to Budapest"
+slug: from-bratislava-to-budapest
 categories: travel europe hungary
 tags: airbnb budapest bucharest central-market danube eastern-europe erasmus gellert-baths ghetto-gulyas gulyas hungarian-parliament langos nightlife photography scam-bars sightseeing szimpla-kert thermal-baths
 excerpt: "We leave Bratislava for Budapest quite early in the morning and the change grows more and more palpable with every rattle of the train. There are six of us in our compartment. To a splendid mind, such a crowd would present a wonderful opportunity for a humorous character study in the style of a great Russian novel, though the crowd keeps changing: people come, sit next to us and then leave almost immediately. The reason, we realise, is that, for some reason, we smell."
