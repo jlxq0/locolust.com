@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full antialiased">
+
+<head>
+  <meta charSet="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>A Kenyan Adventure and a Dubai Detour - Locolust</title>
+  <meta name="description"
+    content="I’m Julian, rocket ship builder, pizza expert, loves the Giants, parent. This is my personal travel blog." />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16" />
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script>
+  function changeGiscusTheme(theme) {
+    function sendMessage(message) {
+      const iframe = document.querySelector('iframe.giscus-frame');
+      if (!iframe) return;
+      iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+    }
+    sendMessage({
+      setConfig: {
+        theme: theme
+      }
+    });
+  }
+
+  // set giscus theme after giscus has been loaded
+  function handleGiscusMessage(event) {
+    if (event.origin !== 'https://giscus.app') return;
+    if (!(typeof event.data === 'object' && event.data.giscus)) return;
+
+    // const giscusData = event.data.giscus;
+    changeGiscusTheme(globalColorMode);
+    window.removeEventListener('message', handleGiscusMessage);
+  }
+
+  window.addEventListener('message', handleGiscusMessage);
+
+  if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.classList.add('dark');
+    changeGiscusTheme('dark');
+    globalColorMode = 'dark';
+    console.log('dark');
+  } else {
+    document.documentElement.classList.remove('dark');
+    changeGiscusTheme('light');
+    globalColorMode = 'light';
+    console.log('light');
+  }
+</script>
+
+</head>
+
+<body class="flex h-full bg-zinc-50 dark:bg-black">
+  <div class="flex w-full">
+    <div class="fixed inset-0 flex justify-center sm:px-8">
+      <div class="flex w-full max-w-7xl lg:px-8">
+        <div class="w-full bg-white ring-1 ring-zinc-100 dark:bg-zinc-900 dark:ring-zinc-300/20"></div>
+      </div>
+    </div>
+    <div class="relative flex w-full flex-col">
+      <header class="pointer-events-none relative z-50 flex flex-none flex-col"
+        style="height:var(--header-height);margin-bottom:var(--header-mb)">
+        <div class="top-0 z-10 h-16 pt-6" style="position:var(--header-position)">
+  <div class="sm:px-8 top-[var(--header-top,theme(spacing.6))] w-full" style="position:var(--header-inner-position)">
+    <div class="mx-auto w-full max-w-7xl lg:px-8">
+      <div class="relative px-4 sm:px-8 lg:px-12">
+        <div class="mx-auto max-w-2xl lg:max-w-5xl">
+          <div class="relative flex gap-4">
+            <div class="flex flex-1">
+              <div>
+                <a aria-label="Home" class="pointer-events-auto" href="/">
+                  <svg class="hidden dark:block" width="144px" height="36px" viewBox="0 0 120 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs>
+                      <linearGradient x1="50%" y1="0%" x2="50%" y2="85%" id="lg1">
+                        <stop stop-color="#F3F3F3" offset="0%"></stop>
+                        <stop stop-color="#E6E6E6" offset="100%"></stop>
+                      </linearGradient>
+                    </defs>
+                    <g id="p1" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+                      <rect id="r1" fill="url(#lg1)" x="8" y="1.2" width="14" height="7"></rect>
+                      <rect id="r2" fill="#ffffff" x="0" y="8" width="22" height="10"></rect>
+                      <text id="Locolust" font-size="24" font-weight="bold"
+                        fill="#ffffff">
+                        <tspan x="23" y="18">Locolust</tspan>
+                      </text>
+                    </g>
+                  </svg>
+                  <svg class="dark:hidden" width="144px" height="36px" viewBox="0 0 120 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs>
+                        <linearGradient x1="50%" y1="0%" x2="50%" y2="85%" id="lg1">
+                            <stop stop-color="#AAAAAA" offset="0%"></stop>
+                            <stop stop-color="#444444" offset="100%"></stop>
+                        </linearGradient>
+                    </defs>
+                    <g id="p1" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+                        <rect id="r1" fill="url(#lg1)" x="8" y="1.2" width="14" height="7"></rect>
+                        <rect id="r2" fill="#000000" x="0" y="8" width="22" height="10"></rect>
+                        <text id="Locolust" font-size="24" font-weight="bold" fill="#000000">
+                            <tspan x="23" y="18">Locolust</tspan>
+                        </text>
+                    </g>
+                </svg>
+                </a>
+              </div>
+            </div>
+            <div class="flex flex-1 justify-end md:justify-center">
+              <div class="pointer-events-auto md:hidden" data-headlessui-state="">
+                <button
+                  class="group flex items-center rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10 dark:hover:ring-white/20"
+                  type="button" aria-expanded="false" data-headlessui-state="" onclick="toggleMenu()">
+                  Menu
+                  <svg viewBox="0 0 8 6" aria-hidden="true"
+                    class="ml-3 h-auto w-2 stroke-zinc-500 group-hover:stroke-zinc-700 dark:group-hover:stroke-zinc-400">
+                    <path d="M1.75 1.75 4 4.25l2.25-2.5" fill="none" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round"></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div id="mainmenu" class="hidden md:hidden mt-6 absolute z-50">
+                <ul class="pointer-events-auto flex flex-col mt-4 space-y-4 text-sm font-medium text-zinc-800 bg-white/90 rounded-lg shadow-lg ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
+                  <li>
+                    <a class="block px-4 pt-3 transition hover:text-teal-500 dark:hover:text-teal-400" href="/">Home</a>
+                  </li>
+                  <li>
+                    <a class="block px-4 py-1 transition hover:text-teal-500 dark:hover:text-teal-400" href="/travel/asia">Asia</a>
+                  </li>
+                  <li>
+                    <a class="block px-4 py-1 transition hover:text-teal-500 dark:hover:text-teal-400" href="/travel/africa">Africa</a>
+                  </li>
+                  <li>
+                    <a class="block px-4 py-1 transition hover:text-teal-500 dark:hover:text-teal-400" href="/travel/europe">Europe</a>
+                  </li>
+                  <li>
+                    <a class="block px-4 py-1 transition hover:text-teal-500 dark:hover:text-teal-400" href="/travel/north-america">North America</a>
+                  </li>
+                  <li>
+                    <a class="block px-4 py-1 transition hover:text-teal-500 dark:hover:text-teal-400" href="/travel/oceania">Oceania</a>
+                  </li>
+                  <li>
+                    <a class="block px-4 pb-3 transition hover:text-teal-500 dark:hover:text-teal-400" href="/about">About</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div
+                style="position:fixed;top:1px;left:1px;width:1px;height:0;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0;display:none">
+              </div>
+              <nav class="pointer-events-auto hidden md:block">
+                <ul
+                  class="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10"z>
+                  <li>
+                    <a class="relative block px-3 py-2 transition text-teal-500 dark:text-teal-400"
+                      href="/">Home<span class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0 dark:from-teal-400/0 dark:via-teal-400/40 dark:to-teal-400/0"></span>
+                    </a>
+                  </li>
+                  <li class="group relative">
+                    <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
+                      href="/travel/asia">Asia</a>
+                    <ul class="absolute left-0 w-48 mt-2 space-y-2 bg-white text-zinc-800 rounded-lg shadow-md dark:bg-zinc-800 dark:text-zinc-200 transition-opacity duration-200 opacity-0 group-hover:opacity-100">
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/travel/asia/china">China</a>
+                      </li>
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/travel/asia/singapore">Singapore</a>
+                      </li>
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/travel/asia/vietnam">Vietnam</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="group relative">
+                    <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
+                      href="/articles">Africa</a>
+                    <ul class="absolute left-0 w-48 mt-2 space-y-2 bg-white text-zinc-800 rounded-lg shadow-md dark:bg-zinc-800 dark:text-zinc-200 transition-opacity duration-200 opacity-0 group-hover:opacity-100">
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/articles/travel">Egypt</a>
+                      </li>
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/articles/food">Kenya</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="group relative">
+                    <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
+                      href="/articles">Europe</a>
+                    <ul class="absolute left-0 w-48 mt-2 space-y-2 bg-white text-zinc-800 rounded-lg shadow-md dark:bg-zinc-800 dark:text-zinc-200 transition-opacity duration-200 opacity-0 group-hover:opacity-100">
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/articles/travel">France</a>
+                      </li>
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/articles/food">Germany</a>
+                      </li>
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/articles/misc">Hungary</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="group relative">
+                    <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
+                      href="/articles">North&nbsp;America</a>
+                    <ul class="absolute left-0 w-48 mt-2 space-y-2 bg-white text-zinc-800 rounded-lg shadow-md dark:bg-zinc-800 dark:text-zinc-200 transition-opacity duration-200 opacity-0 group-hover:opacity-100">
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/articles/travel">Canada</a>
+                      </li>
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/articles/food">USA</a>
+                      </li>
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/articles/misc">Mexico</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="group relative">
+                    <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
+                      href="/articles">Oceania</a>
+                    <ul class="absolute left-0 w-48 mt-2 space-y-2 bg-white text-zinc-800 rounded-lg shadow-md dark:bg-zinc-800 dark:text-zinc-200 transition-opacity duration-200 opacity-0 group-hover:opacity-100">
+                      <li>
+                        <a class="block px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                          href="/articles/travel">Fiji</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
+                      href="/">About</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="flex justify-end md:flex-1">
+              <div class="pointer-events-auto">
+                <button type="button" aria-label="Toggle theme" id="theme-toggle"
+                  class="group rounded-full bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20">
+                  <svg viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                    aria-hidden="true"
+                    class="h-6 w-6 fill-zinc-100 stroke-zinc-500 transition group-hover:fill-zinc-200 group-hover:stroke-zinc-700 dark:hidden [@media(prefers-color-scheme:dark)]:fill-teal-50 [@media(prefers-color-scheme:dark)]:stroke-teal-500 [@media(prefers-color-scheme:dark)]:group-hover:fill-teal-50 [@media(prefers-color-scheme:dark)]:group-hover:stroke-teal-600">
+                    <path
+                      d="M8 12.25A4.25 4.25 0 0 1 12.25 8v0a4.25 4.25 0 0 1 4.25 4.25v0a4.25 4.25 0 0 1-4.25 4.25v0A4.25 4.25 0 0 1 8 12.25v0Z">
+                    </path>
+                    <path
+                      d="M12.25 3v1.5M21.5 12.25H20M18.791 18.791l-1.06-1.06M18.791 5.709l-1.06 1.06M12.25 20v1.5M4.5 12.25H3M6.77 6.77 5.709 5.709M6.77 17.73l-1.061 1.061"
+                      fill="none"></path>
+                  </svg>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"
+                    class="hidden h-6 w-6 fill-zinc-700 stroke-zinc-500 transition dark:block [@media(prefers-color-scheme:dark)]:group-hover:stroke-zinc-400 [@media_not_(prefers-color-scheme:dark)]:fill-teal-400/10 [@media_not_(prefers-color-scheme:dark)]:stroke-teal-500">
+                    <path
+                      d="M17.25 16.22a6.937 6.937 0 0 1-9.47-9.47 7.451 7.451 0 1 0 9.47 9.47ZM12.75 7C17 7 17 2.75 17 2.75S17 7 21.25 7C17 7 17 11.25 17 11.25S17 7 12.75 7Z"
+                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </header>
+      <main class="flex-auto">
+        <div class="sm:px-8 mt-16 lg:mt-32">
+          <div class="mx-auto w-full max-w-7xl lg:px-8">
+            <div class="relative px-4 sm:px-8 lg:px-12">
+              <div class="mx-auto max-w-2xl lg:max-w-5xl">
+                <div class="xl:relative">
+                  <div class="mx-auto max-w-2xl">
+                    <article class="mb-12">
+                      <header class="flex flex-col">
+                        <h1 class="mt-6 text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+                          A Kenyan Adventure and a Dubai Detour</h1>
+                        <time dateTime="2022-09-05"
+                          class="order-first flex items-center text-base text-zinc-400 dark:text-zinc-500">
+                          <span class="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"></span>
+                          <span class="ml-3">Saturday, January 27, 2024</span>
+                        </time>
+                      </header>
+                      <div class="mt-8 prose dark:prose-invert" data-mdx-content="true">
+                        <p>Why Kenya, you ask? Imagine receiving a wedding invitation that not only promises love and festivities but also an adventure across continents. That was precisely the case for us when Hatim, Canadian by passport but Indian by heritage and residing in Kenya, announced his wedding. The thought alone was enough to pique our curiosity and set us on a journey from Singapore to the heart of Africa.</p>
+
+<p>(For those intrigued by the intricacies and behind-the-scenes tales of our Kenyan adventure, my podcast “<a href="https://www.sleepless.sg">Sleepless in Singapore</a>” features a <a href="https://www.sleepless.sg/5">Kenya episode</a> where I dive a bit deeper.)</p>
+
+<h3 id="the-journey-begins-flight-frenzy-and-dubai-detours">The Journey Begins: Flight Frenzy and Dubai Detours</h3>
+
+<p>Embarking on this trip was no small feat. Direct flights were a dream too far-fetched, leading us into the labyrinth of flight research — a task I hadn’t tackled in years, thanks to the convenience of Singapore Airlines and my stash of miles. However, necessity reigns supreme, and soon I found myself juggling between <a href="https://www.skyscanner.com.sg">Skyscanner</a> and <a href="https://www.google.com/travel/flights">Google Flights</a>, hunting for the perfect itinerary. Our chosen route? Singapore to Dubai on Singapore Airlines, a brief layover filled with sightseeing, followed by a flight with flydubai to Mombasa, and finally, a domestic hop to Nairobi with Kenya Airways.</p>
+
+<p>Dubai, our layover city, was a blend of opulence and chaos. The vast airport, the cumbersome immigration queues, and the lengthy wait for a taxi contrasted sharply with the welcoming gesture of a free SIM card loaded with data — a small but significant relief for any traveler.</p>
+
+<p>Adding to the mosaic of our Dubai experience was an odd encounter at the <a href="https://www.marriott.com/en-us/hotels/dxbmd-le-meridien-dubai-hotel-and-conference-centre/photos/">Le Meridian</a>, a supposed sanctuary of luxury. Our request for a simple paper napkin to wrap a half-eaten pastry was met with a baffling denial. The waitress informed us, with an air of finality, that taking food outside was against hotel policy, except, inexplicably, for the ill. This small but surreal interaction, far from ruining our mood, added a layer of humor to our layover tales, illustrating that even in the most prestigious of establishments, the unexpected awaits.</p>
+
+<h3 id="kenya-calls-weddings-wildlife-and-wonders">Kenya Calls: Weddings, Wildlife, and Wonders</h3>
+
+<p>Arriving in Nairobi, the anticipation of finally meeting up with Mera and Marty gave us an adrenaline rush. It felt like no time had passed when we saw them waiting for us at the <a href="https://www.glamhotel.co.ke">Glam Hotel</a>. Their hugs were as warm as the Kenyan sun, and the laughter and catching up began immediately.</p>
+
+<p>At this first night we found ourselves at the <a href="https://tamarind.co.ke/carnivore/">Carnivore Restaurant</a>, a place that’s all about the meat. Imagine a barbecue on steroids, and you’re halfway there. This isn’t just any dining spot; it’s a carnivore’s dream come true, where skewers of meat are paraded around as if on a victory lap, each cut more succulent than the last. From the conventional beef and chicken to the more adventurous game meats, it’s an all-you-can-eat feast that tests the limits of your appetite. If you are particulary adventuresome, try the bulls balls. Yes, I’m talking testicles here. (And if you are not: Ask Mera!) The atmosphere? Pure joy and hearty laughter, as we signaled ‘yes’ for more with the drop of a flag.</p>
+
+<p>And at night, Christian and Melina joined the group, injecting fresh excitement into our already vibrant gathering.</p>
+
+<p>The next day, among the myriad of wonders Kenya unfurled before us, a visit to the <a href="https://www.giraffecentre.org">Nairobi Giraffe Centre</a> stood out as a moment of sheer enchantment. Here, in the gentle company of these towering yet graceful beings, we discovered a peculiar marvel: the antiseptic properties of giraffe tongues. As we fed them, their long, rough tongues grazed our hands, a sensation as surprising as it was fascinating. This encounter was not just a brush with wildlife but a lesson in the delicate balance of nature, where even a giraffe’s lick carries the healing touch of the wild.</p>
+
+<h3 id="lessons-in-patience-african-indian-timing">Lessons in Patience: African Indian Timing</h3>
+
+<p>Landing in Mombasa was like stepping into a novel filled with vibrant characters and picturesque settings. The wedding was nothing short of spectacular, blending Indian traditions with African warmth in a celebration that spanned several days. From color ceremonies to henna tattoos, each event was a testament to cultural fusion and familial bonds. Definitely not always on time – but mostly worth our time.</p>
+
+<p>Not all was smooth sailing, however. The concept of “African Indian timing” tested our patience, with schedules stretching and twisting in ways that could frustrate even the most seasoned traveler. Being late for your own wedding? Totally acceptable here. Yet, this too became a cherished part of our adventure, teaching us to embrace the unexpected with humor and grace. I couldn’t help but make light of the situation, joking that “everything is 20 minutes” became our mantra, regardless of whether it was actually a five-minute walk or an hour-long drive.</p>
+
+<p>Our stay at the “<a href="https://sunnsand.co.ke">Sun ‘n Sands Hotel</a>” in Mombasa was an experience in itself. While the hotel was just shaking off the cobwebs of a COVID-induced hiatus, it served as our base for the whirlwind of wedding festivities. It wasn’t just about attending a wedding; it was about immersing ourselves in a vibrant confluence of cultures, a sensory overload that I hadn’t anticipated but wholly embraced.</p>
+
+<h3 id="sailing-into-the-sunset-boat-rides-and-beachside-bliss">Sailing into the Sunset: Boat Rides and Beachside Bliss</h3>
+
+<p>One of the trip’s highlights was a serene boat ride, a moment of tranquility that balanced the whirlwind of activities. As we glided towards the sunset, the worries of the world seemed to dissolve into the waters below, leaving us with a sense of peace and contentment.</p>
+
+<h3 id="a-home-away-from-home">A home away from home</h3>
+
+<p>The climax, however, was our time at Hatim’s home. The warmth and hospitality we received from Hatim’s lovely mom and the whole family were unparalleled. We were treated to an array of Indian dishes that tantalized our taste buds, a feast that felt both exotic and comforting. The color ceremony, a spectacle of hues and laughter, left us covered in shades of joy – and Hatim covered in shades of yellow. The henna ceremony added another layer to this rich tapestry of traditions. Watching the intricate patterns take shape on the ladies’ hands was mesmerizing, a beautiful blend of art and ritual that spoke volumes of the culture we were momentarily part of. These experiences, set against the backdrop of Hatim’s welcoming home, were a poignant reminder of the beauty of coming together, of celebrating love in all its forms, in a setting that was as heartwarming as it was splendid.</p>
+
+<h3 id="15-minutes-of-fame">15 minutes of fame</h3>
+
+<p>Nat had already orchestrated much of the wedding, infusing the events with dances, games, and a whole lot of fun. Yet, it was the evening she stepped up as MC that left me beaming with pride. There she stood, effortlessly navigating the night’s festivities, showcasing a talent I didn’t know of, a talent that seemed second nature to her. She led a Q&amp;A game where the newly weds, Mubi and Hatim, had to match their answers without seeing each other – questions like “Who’s the tougher one?” and “Who’s more romantic?” elicited responses that were both revealing and amusing. Then there was the bingo game, designed to engage everyone in attendance, creating an atmosphere of communal joy and laughter.</p>
+
+<p>Indeed, Nat’s performance was so stellar that I half-joked about getting her to team up with our newfound friends, Jenny and Manny — the latter being a producer for <a href="https://www.atv.at/tv/amore-unter-palmen">renowned Austrian TV shows</a>. Despite my enthusiasm, Nat remains modestly hesitant about embracing her newfound calling.</p>
+
+<p>For me, that night wrapped up perfectly as I found myself and Christian stepping aside onto a terrace, away from the crowd. There, against the backdrop of a starlit sky, we shared a drink and delved into one of those rare, meandering conversations that only best friends can have — spanning everything and nothing all at once. It was one of those moments that encapsulate the essence of friendship, set against the vibrant tapestry of a night to remember.</p>
+
+<h3 id="the-safari-and-beyond-a-tease-of-adventures-unfolded">The Safari and Beyond: A Tease of Adventures Unfolded</h3>
+
+<p>As the wedding part of our Kenyan journey concluded, we were left with memories to last a lifetime and stories to fill countless evenings. Yet, there’s more to tell — safaris that brought us face-to-face with the wild heart of Africa, a secluded island that offered a slice of paradise, and a return to Dubai for a day of exploration.</p>
+
+<p>But that is for another time.</p>
+
+                      </div>
+                    </article>
+                    <div>
+                      <script src="https://giscus.app/client.js" data-repo="jlxq0/locolust.com"
+                        data-repo-id="R_kgDOLDanWQ" data-category="Website Comments"
+                        data-category-id="DIC_kwDOLDanWc4Cckvm" data-mapping="pathname" data-strict="0"
+                        data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="dark"
+                        data-lang="en" data-loading="lazy" crossorigin="anonymous" async>
+                        </script>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="mt-32 flex-none">
+        <div class="sm:px-8">
+  <div class="mx-auto w-full max-w-7xl lg:px-8">
+    <div class="border-t border-zinc-100 pb-16 pt-10 dark:border-zinc-700/40">
+      <div class="relative px-4 sm:px-8 lg:px-12">
+        <div class="mx-auto max-w-2xl lg:max-w-5xl">
+          <div class="flex flex-col items-center justify-between gap-6 sm:flex-row">
+            <div
+              class="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
+              <a class="transition hover:text-teal-500 dark:hover:text-teal-400" href="/about">About</a>
+              <a class="transition hover:text-teal-500 dark:hover:text-teal-400" href="/projects">Projects</a>
+              <a class="transition hover:text-teal-500 dark:hover:text-teal-400" href="/speaking">Speaking</a>
+              <a class="transition hover:text-teal-500 dark:hover:text-teal-400" href="/uses">Uses</a>
+            </div>
+            <p class="text-sm text-zinc-400 dark:text-zinc-500">
+              © 2024 Julian Lindner. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </footer>
+    </div>
+  </div>
+  <script defer>
+  var themeToggleBtn = document.getElementById('theme-toggle');
+
+  themeToggleBtn.addEventListener('click', function () {
+    if (document.documentElement.classList.contains('dark')) {
+      document.documentElement.classList.remove('dark');
+      localStorage.setItem('color-theme', 'light');
+      changeGiscusTheme('light');
+    } else {
+      document.documentElement.classList.add('dark');
+      localStorage.setItem('color-theme', 'dark');
+      changeGiscusTheme('dark');
+    }
+  });
+
+  function toggleMenu() {
+    var menu = document.getElementById("mainmenu");
+    menu.classList.toggle("hidden");
+  }
+</script>
+
+</body>
+
+</html>
