@@ -4,11 +4,15 @@ title: "Locolust" # the name of your site, e.g. ACME Corp.
 
 plugins:
   - jekyll-postcss
+  - jekyll-paginate
 
 postcss:
   cache: false
 
 permalink: /:categories/:title
+
+paginate: 6
+paginate_path: /page:num/
 
 defaults:
   -
