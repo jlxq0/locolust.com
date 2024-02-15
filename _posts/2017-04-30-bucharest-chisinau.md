@@ -35,7 +35,7 @@ With our backpacks we enter the city. It is the first one without a McDonald's a
 
 We continue to walk in the direction of the park, which is Chișinăus number one sight, but stop again after a few hundred meters because we see the [Nota Bene](https://www.facebook.com/notabene.md/?rf=356132601097262), a little café, and get hungry. Breakfast looks good in the menu, not so good in real life, but that doesn't stop us from eating every last bite. And stay for two more hours, because of the fast wifi and the power sockets on every table – digital detox is not going very well for us.
 
-![](https://atomic-temporary-205398276.wpcomstaging.com/wp-content/uploads/2017/04/JLT20791-1024x683.jpg)
+![](https://atomic-temporary-205398276.wpcomstaging.com/wp-content/uploads/2017/04/JLT20791-1024x683.webp)
 
 With new found strength and recharged batteries on our way to the park, we first realize that there are no markings on the streets. The cars – from Lada to Porsche we see everything – follow the lines only existing in their heads precisely though. There is even an imaginary bus lane.
 
