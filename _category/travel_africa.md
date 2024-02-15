@@ -1,7 +1,7 @@
 ---
 tag: africa
 permalink: "/travel/africa"
-category-headline: "Travel – Africa"
+category-headline: "Travelling to Africa"
 category-description: "Journeys to Africa have been few, but fabulous!"
 layout: "category"
 pic1: "glacier"
