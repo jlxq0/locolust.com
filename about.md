@@ -8,7 +8,7 @@ category-description: "This is about me and about this page."
 <div class="mt-8 prose dark:prose-invert" data-mdx-content="true">
 
   <h2>
-    Hi
+    Hi, it's me.
   </h2>
 
 </div>
