@@ -14,6 +14,10 @@ module.exports = {
     'text-teal-400',
     'pt-4',
     'pb-4',
+    'rounded-t-lg',
+    'rounded-b-lg',
+    'text-teal-500',
+    'dark:text-teal-400',
   ],
   darkMode: 'class',
   theme: {
