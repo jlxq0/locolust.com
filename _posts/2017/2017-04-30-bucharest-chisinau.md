@@ -51,4 +51,4 @@ I'm reading until 1am, then fall asleep.
 
 I wake up and a soldier in full battle suit is sitting next to my feet, looking at me. I pass him my documents. He is copying everything into some kind of very old laptop, gives us our second stamp and disappears without much ado. Five minutes later, his colleague wakes us up again. Harshly she compliments us out of the compartment and then proceeds with the quickest luggage control ever: She lifts our beds, lets her flashlight flash up for half a second – and then she is gone.
 
-After a while we both fall asleep again – probably [dreaming about Kiev]({% post_url 2017-05-01-chisinau-kiev %}).
+After a while we both fall asleep again – probably [dreaming about Kiev]({% post_url 2017/2017-05-01-chisinau-kiev %}).
