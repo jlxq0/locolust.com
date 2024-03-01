@@ -1,6 +1,7 @@
 ---
 tag: north-america
 permalink: "/travel/north-america"
+title: "Travelling to North America"
 category-headline: "Travelling to North America"
 category-description: "Journeys to North America."
 layout: "category"

@@ -1,6 +1,7 @@
 ---
 tag: austria
 permalink: "/travel/europe/austria"
+title: "Travelling to Austria, Europe"
 category-headline: "Travelling to Austria, Europe"
 category-description: "Austria, Australia – as long as it's Africa."
 layout: "category"

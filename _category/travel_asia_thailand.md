@@ -1,6 +1,7 @@
 ---
 tag: thailand
 permalink: "/travel/asia/thailand"
+title: "Travelling to Thailand, Asia"
 category-headline: "Travelling to Thailand, Asia"
 category-description: "Thailand, country of pad thai."
 layout: "category"

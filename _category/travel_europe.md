@@ -1,6 +1,7 @@
 ---
 tag: europe
 permalink: "/travel/europe"
+title: "Travelling to Europe"
 category-headline: "Travelling to Europe"
 category-description: "Journeys to Europe."
 layout: "category"

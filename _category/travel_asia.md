@@ -1,6 +1,7 @@
 ---
 tag: asia
 permalink: "/travel/asia"
+title: "Travelling to Asia"
 category-headline: "Travelling to Asia"
 category-description: "Asia is where I belong."
 layout: "category"

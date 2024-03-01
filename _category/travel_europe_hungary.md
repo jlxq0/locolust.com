@@ -1,6 +1,7 @@
 ---
 tag: hungary
 permalink: "/travel/europe/hungary"
+title: "Travelling to Hungary, Europe"
 category-headline: "Travelling to Hungary, Europe"
 category-description: "Welp."
 layout: "category"

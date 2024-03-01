@@ -1,6 +1,7 @@
 ---
 tag: romania
 permalink: "/travel/europe/romania"
+title: "Travelling to Romania, Europe"
 category-headline: "Travelling to Romania, Europe"
 category-description: "Welp."
 layout: "category"
