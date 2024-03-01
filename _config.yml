@@ -1,10 +1,13 @@
 url: "https://www.locolust.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Locolust" # the name of your site, e.g. ACME Corp.
+description: "On locolust.com, I am taking you on my personal journey through the world." # a short description of your site's purpose"
+author: "Julian Lindner" # the author's name
 
 plugins:
   - jekyll-postcss
   - jekyll-paginate
+  - jekyll-feed
 
 postcss:
   cache: false
