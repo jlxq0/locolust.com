@@ -1,6 +1,7 @@
 ---
 tag: oceania
 permalink: "/travel/oceania"
+title: "Travelling to Oceania"
 category-headline: "Travelling to Oceania"
 category-description: "Journeys to Oceania."
 layout: "category"

@@ -1,6 +1,7 @@
 ---
 tag: moldova
 permalink: "/travel/europe/moldova"
+title: "Travelling to Moldova, Europe"
 category-headline: "Travelling to Moldova, Europe"
 category-description: "Welp."
 layout: "category"

@@ -1,6 +1,7 @@
 ---
 tag: ukraine
 permalink: "/travel/europe/ukraine"
+title: "Travelling to Ukraine, Europe"
 category-headline: "Travelling to Ukraine, Europe"
 category-description: "Welp."
 layout: "category"

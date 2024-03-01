@@ -1,6 +1,7 @@
 ---
 tag: travel
 permalink: "/travel"
+title: "Travel"
 category-headline: "Travel"
 category-description: "All posts in the travel category."
 layout: "category"

@@ -1,6 +1,7 @@
 ---
 tag: vietnam
 permalink: "/travel/asia/vietnam"
+title: "Travelling to Vietnam, Asia"
 category-headline: "Travelling to Vietnam, Asia"
 category-description: "Vietnam, a country full of food and adventure."
 layout: "category"
