@@ -4,6 +4,10 @@ asia:
   countries:
     - title: "Japan"
       url: "/travel/asia/japan"
+    - title: "Laos"
+      url: "/travel/asia/laos"
+    - title: "South Korea"
+      url: "/travel/asia/southkorea"
     - title: "Thailand"
       url: "/travel/asia/thailand"
     - title: "Vietnam"
