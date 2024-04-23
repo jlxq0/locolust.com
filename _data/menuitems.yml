@@ -2,10 +2,12 @@ asia:
   title: "Asia"
   url: "/travel/asia"
   countries:
-    - title: "Vietnam"
-      url: "/travel/asia/vietnam"
+    - title: "Japan"
+      url: "/travel/asia/japan"
     - title: "Thailand"
       url: "/travel/asia/thailand"
+    - title: "Vietnam"
+      url: "/travel/asia/vietnam"
 africa:
   title: "Africa"
   url: "/travel/africa"

@@ -37,6 +37,6 @@ The weather is just as pleasant as to have us walk up to the [Bratislava Castle]
 
 As we sit there, sipping at our beers and steeped in our philosophical ponderings, we study the people around us.  We realise that Bratislava's Old Town seems a magnetic spot for group travel, especially bachelor and wedding parties. Flock after cheery flock, they come and go, probably incentivised by affordable accommodation and alcohol.
 
-The next day we have breakfast at [Mondieu](https://mondieu.sk/home/) which is fine but forgettable. What is unforgettable is the boat tour and the visit of the ruins of [Devín Castle](https://en.wikipedia.org/wiki/Dev%C3%ADn%5C_Castle), one of the oldest castles in Slovakia. We spend a great afternoon resulting in many camera mementos. Do go there if you have the chance. Do not go to Kolkovna. This restaurant marked our last night in Bratislava but also the first time we had crummy food on our trip.
+The next day we have breakfast at [Mondieu](https://mondieu.sk/home/) which is fine but forgettable. What is unforgettable is the boat tour and the visit of the ruins of [Devín Castle](https://en.wikipedia.org/wiki/Devín_Castle), one of the oldest castles in Slovakia. We spend a great afternoon resulting in many camera mementos. Do go there if you have the chance. Do not go to Kolkovna. This restaurant marked our last night in Bratislava but also the first time we had crummy food on our trip.
 
-We go to bed quite early on 23 April to be ready for the train [ride to Budapest the next day](/?p=2028).
+We go to bed quite early on 23 April to be ready for the train [ride to Budapest](/?p=2028) the next day.

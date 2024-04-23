@@ -2,10 +2,11 @@
 title: From Bucharest to Chișinău
 slug: from-bucharest-to-chisinau
 categories: travel europe moldova
+tags: bucharest chisinau eastern-europe kiev moldova train-journey
+excerpt: "The train ride from Bucharest to Chișinău is unspectacular. We arrive almost in time at Chișinăus main station. And that is where we both feel the journey starts to begin. Where things start to become really different from what we are used to. The first time we really feel in a different world."
 ---
 
-
-The train ride from [Bucharest](/?p=783) to Chișinău is unspectacular. We arrive almost in time at Chișinăus main station. And that is where we both feel the journey starts to begin. Where things start to become really different from what we are used to. The first time we really feel in a different world.
+The train ride from [Bucharest]({% post_url 2017/2017-04-29-budapest-bucharest %}) to Chișinău is unspectacular. We arrive almost in time at Chișinăus main station. And that is where we both feel the journey starts to begin. Where things start to become really different from what we are used to. The first time we really feel in a different world.
 
 If you had asked us before why we went to Chișinău, we wouldn't have known. It just wasen route, so we decided to stop for a day. And I am happy we did. Not because it is beautiful or because of the many sights – it is not and there are no sights. But for the experience.
 

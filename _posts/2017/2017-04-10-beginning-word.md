@@ -31,8 +31,8 @@ This blog is an attempt to share some of my memories, and maybe also some of the
 
 Initially we were thinking about how to monetize going to foreign places and have fun and eat all day and quickly come up with a TV show – but I guess Philip Rosenthal beat us to that. So a website it is.
 
-In the general [Travel](/travel/) section you’ll find travel posts sorted by region and location. It is mostly recommendations of places I liked, flavored with personal stories and experiences. There is also a [Food](/?cat_ID=2) section, containing restaurant or food recommendations, as well as a series of posts about burgers in the various cities of the world – a thing Philipp and I had when we were traveling together and I tried to keep up after. The section I called [Toolbox](/?cat_ID=4) is dedicated to travel’s little necessities and contains packing lists and app and travel accessory recommendations. Finally, the [Miscellaneous](/?cat_ID=1) section is for, well, random posts.
+In the countries sections you’ll find travel posts sorted by region and location. It is mostly recommendations of places I liked, flavored with personal stories and experiences. There are also some food related posts, containing restaurant or food recommendations, as well as a series of posts about burgers in the various cities of the world – a thing Philipp and I had when we were traveling together and I tried to keep up after. I dedicated a section to travel’s little necessities and contains packing lists and app and travel accessory recommendations. Finally, the [Misc](/misc) section is for, well, random posts.
 
 While the first entries are taking shape, feel free go ahead and take a look at the accompanying [Instagram feed](https://www.instagram.com/jlxq0/).
 
-Enjoy, maybe with the [first article](/miscellaneous/conquer-the-world/) – and please don’t hesitate to criticize!
+Enjoy, maybe with the first article, [bun or bus]({% post_url 2017/2017-04-20-bun-or-bus %}) – and please don’t hesitate to criticize!
