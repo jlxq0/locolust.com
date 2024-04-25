@@ -7,7 +7,7 @@ excerpt: "It's 7:03 AM but the promise of spectacular new scenery has long shake
 ---
 
 
-It's 7:03 AM but the promise of spectacular new scenery has long shaken off snooze and stirred us alert. Now, after [leaving home](/?p=766), we are on the bus to Mannheim, some 40 minutes away from the next bigger station. I'm dwelling on Mannheim now just as I dwelt on it then - in passing. Stunning at second sight, with a charm not immediately discernible from the greyer shades of industrial architecture, this City of Squares is also famed for the grid-like pattern of its plazas. But, arriving at its train station, the only shapes we're looking to see are those of the long-awaited Russian and Chinese visa vignettes in our passports. We notice, as we pick our travel papers, that the former is reassuringly there. Good. The latter isn't. Not so good. Alas, what's to be done? Determined not to be discouraged by this forbidding absence, we decide to give it a temporary shrug-off and deal with it as we travel on.
+It's 7:03 AM but the promise of spectacular new scenery has long shaken off snooze and stirred us alert. Now, after [leaving home]({% post_url 2017/2017-04-20-bun-or-bus %}), we are on the bus to Mannheim, some 40 minutes away from the next bigger station. I'm dwelling on Mannheim now just as I dwelt on it then - in passing. Stunning at second sight, with a charm not immediately discernible from the greyer shades of industrial architecture, this City of Squares is also famed for the grid-like pattern of its plazas. But, arriving at its train station, the only shapes we're looking to see are those of the long-awaited Russian and Chinese visa vignettes in our passports. We notice, as we pick our travel papers, that the former is reassuringly there. Good. The latter isn't. Not so good. Alas, what's to be done? Determined not to be discouraged by this forbidding absence, we decide to give it a temporary shrug-off and deal with it as we travel on.
 
 To Vienna
 ---------
@@ -39,4 +39,4 @@ As we sit there, sipping at our beers and steeped in our philosophical pondering
 
 The next day we have breakfast at [Mondieu](https://mondieu.sk/home/) which is fine but forgettable. What is unforgettable is the boat tour and the visit of the ruins of [Devín Castle](https://en.wikipedia.org/wiki/Devín_Castle), one of the oldest castles in Slovakia. We spend a great afternoon resulting in many camera mementos. Do go there if you have the chance. Do not go to Kolkovna. This restaurant marked our last night in Bratislava but also the first time we had crummy food on our trip.
 
-We go to bed quite early on 23 April to be ready for the train [ride to Budapest](/?p=2028) the next day.
+We go to bed quite early on 23 April to be ready for the train [ride to Budapest]({% post_url 2017/2017-04-25-bratislava-budapest %}) the next day.

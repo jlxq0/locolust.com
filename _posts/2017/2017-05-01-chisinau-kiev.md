@@ -5,7 +5,7 @@ categories: travel europe ukraine
 ---
 
 
-It is April the 30th, ten days in, when we arrive [from Moldova](/?p=786) in Kiev. We have a lovely Airbnb, managed by Kolya, Airbnb-Manager and elf, according to his own words. Kolya welcomes us, has a lot of tips – and then shows us the rooftop of his building. When we were thinking "rooftop terrace" first, we realize very soon it is really just rooftop. No railings, no nothing – above the 12th floor. We feel a little like those jumpers you might know from youtube videos. Excited, but also a little afraid. Kolya is climbing around in dizzying heights; we stick more to the center.
+It is April the 30th, ten days in, when we arrive [from Moldova]({% post_url 2017/2017-04-30-bucharest-chisinau %}) in Kiev. We have a lovely Airbnb, managed by Kolya, Airbnb-Manager and elf, according to his own words. Kolya welcomes us, has a lot of tips – and then shows us the rooftop of his building. When we were thinking "rooftop terrace" first, we realize very soon it is really just rooftop. No railings, no nothing – above the 12th floor. We feel a little like those jumpers you might know from youtube videos. Excited, but also a little afraid. Kolya is climbing around in dizzying heights; we stick more to the center.
 
 At night we eat at [Pervak](http://www.pervak.kiev.ua/). A funny experience. It is supposed to be the best restaurant in Kiev. And the food is good, in fact. The waitresses are dressed like nurses. Busty nurses, to be precise. When ordering the homemade ginger lemonade, our waiter advises against and recommends the regular lemonade. He is wrong. While the regular tastes like liquid gummi bears, the ginger one is actually quite likable. Tired we go to bed.
 
@@ -31,4 +31,4 @@ Back at our place – we stayed only for two days – when we pick up our luggag
 
 Wasn't that a weird but nice incident.
 
-We take an Uber to the train station. It costs almost nothing. A corpulent Russian lady we ask for the way practically tears our tickets from my hands and walks away very quickly. We follow very quickly. She only stops at a – to us – random track and commands us to a – to us – very random section. There are no markings whatsoever, but it is precisely where our door is after the train arrives. It is a very full train and we have to sleep in the top bunks. But we are so tired that we quickly fall asleep on our way to Moscow.
+We take an Uber to the train station. It costs almost nothing. A corpulent Russian lady we ask for the way practically tears our tickets from my hands and walks away very quickly. We follow very quickly. She only stops at a – to us – random track and commands us to a – to us – very random section. There are no markings whatsoever, but it is precisely where our door is after the train arrives. It is a very full train and we have to sleep in the top bunks. But we are so tired that we quickly fall asleep on our way to [Moscow]({% post_url 2017/2017-05-02-moscow %}).

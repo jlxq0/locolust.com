@@ -19,7 +19,7 @@ So two months later, with a little, albeit sketchy, planning, we found ourselves
 
 The plan was to travel from Ketsch, a little town close to Heidelberg, in Baden-Wuerttemberg, Germany – and the place we grew up – to Beijing, China, through eastern Europe, Russia and Mongolia, using no other means of transport but trains. Then on from China we would see Japan and Taiwan and Hong Kong, from where I would embark on a South East Asia trip solo while Philipp would fly back to Germany and find a job. And that is – just about – what we did.
 
-![image-title-here](/assets/images/2017/beginning-word/glacier.webp){:class="img-responsive"}
+![A glacier in Greenland](/assets/images/2017/beginning-word/glacier.webp){:class="img-responsive"}
 
 Traveling for me – and this epiphany came with the experience - is not so much about seeing as many sights as one can; especially on these longer trips, it is more about making friends, seeing the countries through the lenses of the locals and, what turned out to be an integral factor for the both of us, eating. Trying all the local specialties there are.
 
