@@ -18,6 +18,6 @@ Walk around castle hill and the parliament building. The latter one, especially 
 
 Another highlight was the central market where I can recommend trying one of the most famous foods, a Langós.
 
-Then there is one thing, everyone recommends: Going to one of Budapests Thermal baths. Well, I don't. At least I don't recommend going to the one we were. It was cheap, but it was also kind of dirty – and it was super creepy. It looked like one of those left hospitals from the 1950s in a horror flic. I can only emphasize: Go to one of the good ones, like for example the [Gellért Thermal Baths](http://gellertspa.com/), and do not try to save a couple of bucks – it won't be worth it.
+Then there is one thing, everyone recommends: Going to one of Budapests Thermal baths. Well, I don't. At least I don't recommend going to the one we were. It was cheap, but it was also kind of dirty – and it was super creepy. It looked like one of those left hospitals from the 1950s in a horror flic. I can only emphasize: Go to one of the good ones, like for example the [Gellért Thermal Baths](https://www.gellertbath.hu), and do not try to save a couple of bucks – it won't be worth it.
 
 The day before we leave we do some more sightseeing and then have original Hungarian Gulyas at [Gettó Gulyás](https://www.facebook.com/gettogulyas/) – another thing which you should really try. It was great. Happy and with filled stomachs we go to bed and ready ourselves for the next day: Our [trip to Bucharest]({% post_url 2017/2017-04-29-budapest-bucharest %}).
