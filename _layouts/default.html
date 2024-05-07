@@ -17,11 +17,16 @@
 
 <body class="flex h-full bg-zinc-50 dark:bg-black">
   <div class="flex w-full">
+    <div class="fixed inset-0 flex justify-center sm:px-8">
+      <div class="flex w-full max-w-7xl lg:px-8">
+        <div class="w-full bg-white ring-1 ring-zinc-100 dark:bg-zinc-900 dark:ring-zinc-300/20"></div>
+      </div>
+    </div>
     <div class="relative flex w-full flex-col">
-      <header class="pointer-events-none relative z-50 flex flex-none flex-col">
+      <header class="pointer-events-none relative z-50 flex flex-none flex-col"
+        style="height:var(--header-height);margin-bottom:var(--header-mb)">
         {% include navbar.html %}
       </header>
-      <div class="flex-none" style="height:var(--content-offset)"></div>
       <main class="flex-auto">
         {% include homepage_header.html %}
         {% include image_row.html %}
@@ -35,6 +40,7 @@
                   </div>
                   <div class="space-y-10 lg:pl-16 xl:pl-24">
                     {% include box_newsletter.html %}
+                    {% include box_social.html %}
                   </div>
                 </div>
               </div>
