@@ -2,6 +2,8 @@ asia:
   title: "Asia"
   url: "/travel/asia"
   countries:
+    - title: "Bhutan"
+      url: "/travel/asia/bhutan"
     - title: "Japan"
       url: "/travel/asia/japan"
     - title: "Laos"
