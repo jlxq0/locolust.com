@@ -9,11 +9,11 @@ excerpt: "In the beginning was the word: We’d been talking a lot about taking 
 
 In the beginning was the word: We’d been talking a lot about taking the Trans-Siberian Railway – the pronoun here encompassing my good friend Michael, my little brother Philipp and, well, myself. We had pondered, planned, but we never did it. Until we did.
 
-### Words
+## Words
 
 After the word came the feeling, of heaviness, restlessness, thirst – a knot. It was two years ago that I found myself struggling at work, changing jobs and then abruptly quitting a new business venture a mere couple of months after I’d started it. The prospect of hopping from one work engagement to another started feeling less and less right as the days went by, until one day I surprised Philipp – and myself just as much – by calling him to make the plucky proposition: "Hey, you’re just finishing university and you don't have a job yet – take the Trans-Siberian Railway with me and travel the world a bit?" After a _When?_, a _How long for?_ and 30 more seconds of suspenseful silence, he committed. And for this spontaneity I love him.
 
-### Deeds
+## Deeds
 
 So two months later, with a little, albeit sketchy, planning, we found ourselves sitting on the train to Vienna, Austria – our first stop.
 
@@ -25,7 +25,7 @@ Traveling for me – and this epiphany came with the experience - is not so much
 
 During that long trip, a big first amid a myriad of short, regular vacations and a lot of business travel, for the first time I kept a diary. Well, _diary_ is perhaps a bit of an overstatement – let's just say I took some notes and a lot of pictures.
 
-### About
+## About
 
 This blog is an attempt to share some of my memories, and maybe also some of the more or less useful experiences with you. But this blog is also an attempt to preserve my memories and keep their flame alight for myself. For a life without memories is no life at all.
 
