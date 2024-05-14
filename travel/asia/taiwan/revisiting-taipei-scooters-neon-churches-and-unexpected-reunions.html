@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full antialiased">
+
+<head>
+  <meta charSet="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Revisiting Taipei: Scooters, Neon Churches, and Unexpected Reunions - Locolust</title>
+  <meta name="description"
+    content="I’m Julian, rocket ship builder, pizza expert, loves the Giants, parent. This is my personal travel blog.">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script>
+  function changeGiscusTheme(theme) {
+    function sendMessage(message) {
+      const iframe = document.querySelector('iframe.giscus-frame');
+      if (!iframe) return;
+      iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+    }
+    sendMessage({
+      setConfig: {
+        theme: theme
+      }
+    });
+  }
+
+  // set giscus theme after giscus has been loaded
+  function handleGiscusMessage(event) {
+    if (event.origin !== 'https://giscus.app') return;
+    if (!(typeof event.data === 'object' && event.data.giscus)) return;
+
+    // const giscusData = event.data.giscus;
+    changeGiscusTheme(globalColorMode);
+    window.removeEventListener('message', handleGiscusMessage);
+  }
+
+  window.addEventListener('message', handleGiscusMessage);
+
+  if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.classList.add('dark');
+    changeGiscusTheme('dark');
+    globalColorMode = 'dark';
+    console.log('dark');
+  } else {
+    document.documentElement.classList.remove('dark');
+    changeGiscusTheme('light');
+    globalColorMode = 'light';
+    console.log('light');
+  }
+</script>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/images/favicon/site.webmanifest">
+<link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#000000">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body class="flex h-full bg-zinc-50 dark:bg-black">
+  <div class="flex w-full">
+    <div class="fixed inset-0 flex justify-center sm:px-8">
+      <div class="flex w-full max-w-7xl lg:px-8">
+        <div class="w-full bg-white ring-1 ring-zinc-100 dark:bg-zinc-900 dark:ring-zinc-300/20"></div>
+      </div>
+    </div>
+    <div class="relative flex w-full flex-col">
+      <header class="pointer-events-none relative z-50 flex flex-none flex-col"
+        style="height:var(--header-height);margin-bottom:var(--header-mb)">
+        <div class="top-0 z-10 h-16 pt-6" style="position:var(--header-position)">
+  <div class="sm:px-8 top-[var(--header-top,theme(spacing.6))] w-full" style="position:var(--header-inner-position)">
+    <div class="mx-auto w-full max-w-7xl lg:px-8">
+      <div class="relative px-4 sm:px-8 lg:px-12">
+        <div class="mx-auto max-w-2xl lg:max-w-5xl">
+          <div class="relative flex gap-4">
+            <div class="flex flex-1">
+              <div>
+                <a aria-label="Home" class="pointer-events-auto" href="/">
+                  <svg class="hidden dark:block" width="144px" height="36px" viewBox="0 0 120 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs>
+                      <linearGradient x1="50%" y1="0%" x2="50%" y2="85%" id="lg1">
+                        <stop stop-color="#F3F3F3" offset="0%"></stop>
+                        <stop stop-color="#E6E6E6" offset="100%"></stop>
+                      </linearGradient>
+                    </defs>
+                    <g id="p1" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+                      <rect id="r1" fill="url(#lg1)" x="8" y="1.2" width="14" height="7"></rect>
+                      <rect id="r2" fill="#ffffff" x="0" y="8" width="22" height="10"></rect>
+                      <text id="LocolustLogoWhite" font-size="24" font-weight="bold"
+                        fill="#ffffff">
+                        <tspan x="23" y="18">Locolust</tspan>
+                      </text>
+                    </g>
+                  </svg>
+                  <svg class="dark:hidden" width="144px" height="36px" viewBox="0 0 120 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs>
+                        <linearGradient x1="50%" y1="0%" x2="50%" y2="85%" id="lg2">
+                            <stop stop-color="#AAAAAA" offset="0%"></stop>
+                            <stop stop-color="#444444" offset="100%"></stop>
+                        </linearGradient>
+                    </defs>
+                    <g id="p2" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+                        <rect id="r3" fill="url(#lg2)" x="8" y="1.2" width="14" height="7"></rect>
+                        <rect id="r4" fill="#000000" x="0" y="8" width="22" height="10"></rect>
+                        <text id="LocolustLogoBlack" font-size="24" font-weight="bold" fill="#000000">
+                            <tspan x="23" y="18">Locolust</tspan>
+                        </text>
+                    </g>
+                </svg>
+                </a>
+              </div>
+            </div>
+            <div class="flex flex-1 justify-end md:justify-center">
+              <div class="pointer-events-auto md:hidden" data-headlessui-state="">
+                <button
+                  class="group flex items-center rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10 dark:hover:ring-white/20"
+                  type="button" aria-expanded="false" data-headlessui-state="" onclick="toggleMenu()">
+                  Menu
+                  <svg viewBox="0 0 8 6" aria-hidden="true"
+                    class="ml-3 h-auto w-2 stroke-zinc-500 group-hover:stroke-zinc-700 dark:group-hover:stroke-zinc-400">
+                    <path d="M1.75 1.75 4 4.25l2.25-2.5" fill="none" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round"></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div id="mainmenu" class="hidden md:hidden mt-6 absolute z-50">
+                <ul class="pointer-events-auto flex flex-col mt-4 space-y-4 text-sm font-medium text-zinc-800 bg-white/90 rounded-lg shadow-lg ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
+                  
+                  
+                  
+                    
+                    
+                    <li>
+                      <a class="block px-4 py-1 transition hover:text-teal-500 dark:hover:text-teal-400 pt-4" href="/travel/asia">Asia</a>
+                    </li>
+                    
+                  
+                    
+                    
+                    <li>
+                      <a class="block px-4 py-1 transition hover:text-teal-500 dark:hover:text-teal-400 " href="/travel/africa">Africa</a>
+                    </li>
+                    
+                  
+                    
+                    
+                    <li>
+                      <a class="block px-4 py-1 transition hover:text-teal-500 dark:hover:text-teal-400 " href="/travel/europe">Europe</a>
+                    </li>
+                    
+                  
+                    
+                    
+                    <li>
+                      <a class="block px-4 py-1 transition hover:text-teal-500 dark:hover:text-teal-400 " href="#">|</a>
+                    </li>
+                    
+                  
+                    
+                    
+                    <li>
+                      <a class="block px-4 py-1 transition hover:text-teal-500 dark:hover:text-teal-400 " href="/misc">Misc</a>
+                    </li>
+                    
+                  
+                    
+                    
+                    <li>
+                      <a class="block px-4 py-1 transition hover:text-teal-500 dark:hover:text-teal-400 " href="#">|</a>
+                    </li>
+                    
+                  
+                    
+                    
+                    <li>
+                      <a class="block px-4 py-1 transition hover:text-teal-500 dark:hover:text-teal-400 pb-4" href="/about">About</a>
+                    </li>
+                    
+                  
+                </ul>
+              </div>
+
+              <div
+                style="position:fixed;top:1px;left:1px;width:1px;height:0;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0;display:none">
+              </div>
+
+              <nav class="pointer-events-auto hidden md:block">
+                <ul class="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
+                  
+                  
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li class="group relative">
+                      <!-- add this when active:
+
+                        <a class="relative block px-3 py-2 transition text-teal-500 dark:text-teal-400"
+                          href="/">Home<span class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0 dark:from-teal-400/0 dark:via-teal-400/40 dark:to-teal-400/0"></span>
+                        </a>
+
+                      -->
+                      <a class="relative block px-3 py-2 transition  hover:text-teal-500 dark:hover:text-teal-400" href="/travel/asia">Asia<span class="absolute "></span></a>
+                      <ul class="absolute left-0 w-48 mt-2 space-y-2 bg-white text-zinc-800 rounded-lg shadow-md dark:bg-zinc-800 dark:text-zinc-200 transition-opacity duration-200 opacity-0 group-hover:opacity-100">
+                        
+                        
+                        
+                        
+                        
+                          <li>
+                            <a class="block rounded-t-lg px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700" href="/travel/asia/bhutan">Bhutan</a>
+                          </li>
+                          
+                        
+                        
+                        
+                          <li>
+                            <a class="block  px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700" href="/travel/asia/hongkong">Hong Kong</a>
+                          </li>
+                          
+                        
+                        
+                        
+                          <li>
+                            <a class="block  px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700" href="/travel/asia/japan">Japan</a>
+                          </li>
+                          
+                        
+                        
+                        
+                          <li>
+                            <a class="block  px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700" href="/travel/asia/laos">Laos</a>
+                          </li>
+                          
+                        
+                        
+                        
+                          <li>
+                            <a class="block  px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700" href="/travel/asia/malaysia">Malaysia</a>
+                          </li>
+                          
+                        
+                        
+                        
+                          <li>
+                            <a class="block  px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700" href="/travel/asia/philippines">Philippines</a>
+                          </li>
+                          
+                        
+                        
+                        
+                          <li>
+                            <a class="block  px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700" href="/travel/asia/southkorea">South Korea</a>
+                          </li>
+                          
+                        
+                        
+                        
+                          <li>
+                            <a class="block  px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700" href="/travel/asia/taiwan">Taiwan</a>
+                          </li>
+                          
+                        
+                        
+                        
+                          <li>
+                            <a class="block  px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700" href="/travel/asia/thailand">Thailand</a>
+                          </li>
+                          
+                        
+                        
+                        
+                          <li>
+                            <a class="block rounded-b-lg px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700" href="/travel/asia/vietnam">Vietnam</a>
+                          </li>
+                          
+                        
+                      </ul>
+                    </li>
+                    
+                  
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li class="group relative">
+                      <!-- add this when active:
+
+                        <a class="relative block px-3 py-2 transition text-teal-500 dark:text-teal-400"
+                          href="/">Home<span class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0 dark:from-teal-400/0 dark:via-teal-400/40 dark:to-teal-400/0"></span>
+                        </a>
+
+                      -->
+                      <a class="relative block px-3 py-2 transition  hover:text-teal-500 dark:hover:text-teal-400" href="/travel/africa">Africa<span class="absolute "></span></a>
+                      <ul class="absolute left-0 w-48 mt-2 space-y-2 bg-white text-zinc-800 rounded-lg shadow-md dark:bg-zinc-800 dark:text-zinc-200 transition-opacity duration-200 opacity-0 group-hover:opacity-100">
+                        
+                        
+                        
+                        
+                        
+                          <li>
+                            <a class="block rounded-lg px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700" href="/travel/africa/kenya">Kenya</a>
+                          </li>
+                          
+                        
+                      </ul>
+                    </li>
+                    
+                  
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li class="group relative">
+                      <!-- add this when active:
+
+                        <a class="relative block px-3 py-2 transition text-teal-500 dark:text-teal-400"
+                          href="/">Home<span class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0 dark:from-teal-400/0 dark:via-teal-400/40 dark:to-teal-400/0"></span>
+                        </a>
+
+                      -->
+                      <a class="relative block px-3 py-2 transition  hover:text-teal-500 dark:hover:text-teal-400" href="/travel/europe">Europe<span class="absolute "></span></a>
+                      <ul class="absolute left-0 w-48 mt-2 space-y-2 bg-white text-zinc-800 rounded-lg shadow-md dark:bg-zinc-800 dark:text-zinc-200 transition-opacity duration-200 opacity-0 group-hover:opacity-100">
+                        
+                        
+                        
+                        
+                        
+                          <li>
+                            <a class="block rounded-t-lg px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700" href="/travel/europe/austria">Austria</a>
+                          </li>
+                          
+                        
+                        
+                        
+                          <li>
+                            <a class="block  px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700" href="/travel/europe/romania">Romania</a>
+                          </li>
+                          
+                        
+                        
+                        
+                          <li>
+                            <a class="block  px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700" href="/travel/europe/hungary">Hungary</a>
+                          </li>
+                          
+                        
+                        
+                        
+                          <li>
+                            <a class="block  px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700" href="/travel/europe/moldova">Moldova</a>
+                          </li>
+                          
+                        
+                        
+                        
+                          <li>
+                            <a class="block rounded-b-lg px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700" href="/travel/europe/ukraine">Ukraine</a>
+                          </li>
+                          
+                        
+                      </ul>
+                    </li>
+                    
+                  
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li class="group relative">
+                      <!-- add this when active:
+
+                        <a class="relative block px-3 py-2 transition text-teal-500 dark:text-teal-400"
+                          href="/">Home<span class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0 dark:from-teal-400/0 dark:via-teal-400/40 dark:to-teal-400/0"></span>
+                        </a>
+
+                      -->
+                      <a class="relative block px-3 py-2 transition  hover:text-teal-500 dark:hover:text-teal-400" href="#">|<span class="absolute "></span></a>
+                      <ul class="absolute left-0 w-48 mt-2 space-y-2 bg-white text-zinc-800 rounded-lg shadow-md dark:bg-zinc-800 dark:text-zinc-200 transition-opacity duration-200 opacity-0 group-hover:opacity-100">
+                        
+                        
+                        
+                      </ul>
+                    </li>
+                    
+                  
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li class="group relative">
+                      <!-- add this when active:
+
+                        <a class="relative block px-3 py-2 transition text-teal-500 dark:text-teal-400"
+                          href="/">Home<span class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0 dark:from-teal-400/0 dark:via-teal-400/40 dark:to-teal-400/0"></span>
+                        </a>
+
+                      -->
+                      <a class="relative block px-3 py-2 transition  hover:text-teal-500 dark:hover:text-teal-400" href="/misc">Misc<span class="absolute "></span></a>
+                      <ul class="absolute left-0 w-48 mt-2 space-y-2 bg-white text-zinc-800 rounded-lg shadow-md dark:bg-zinc-800 dark:text-zinc-200 transition-opacity duration-200 opacity-0 group-hover:opacity-100">
+                        
+                        
+                        
+                      </ul>
+                    </li>
+                    
+                  
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li class="group relative">
+                      <!-- add this when active:
+
+                        <a class="relative block px-3 py-2 transition text-teal-500 dark:text-teal-400"
+                          href="/">Home<span class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0 dark:from-teal-400/0 dark:via-teal-400/40 dark:to-teal-400/0"></span>
+                        </a>
+
+                      -->
+                      <a class="relative block px-3 py-2 transition  hover:text-teal-500 dark:hover:text-teal-400" href="#">|<span class="absolute "></span></a>
+                      <ul class="absolute left-0 w-48 mt-2 space-y-2 bg-white text-zinc-800 rounded-lg shadow-md dark:bg-zinc-800 dark:text-zinc-200 transition-opacity duration-200 opacity-0 group-hover:opacity-100">
+                        
+                        
+                        
+                      </ul>
+                    </li>
+                    
+                  
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li class="group relative">
+                      <!-- add this when active:
+
+                        <a class="relative block px-3 py-2 transition text-teal-500 dark:text-teal-400"
+                          href="/">Home<span class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0 dark:from-teal-400/0 dark:via-teal-400/40 dark:to-teal-400/0"></span>
+                        </a>
+
+                      -->
+                      <a class="relative block px-3 py-2 transition  hover:text-teal-500 dark:hover:text-teal-400" href="/about">About<span class="absolute "></span></a>
+                      <ul class="absolute left-0 w-48 mt-2 space-y-2 bg-white text-zinc-800 rounded-lg shadow-md dark:bg-zinc-800 dark:text-zinc-200 transition-opacity duration-200 opacity-0 group-hover:opacity-100">
+                        
+                        
+                        
+                      </ul>
+                    </li>
+                    
+                  
+                </ul>
+              </nav>
+
+            </div>
+            <div class="flex justify-end md:flex-1">
+              <div class="pointer-events-auto">
+                <button type="button" aria-label="Toggle theme" id="theme-toggle"
+                  class="group rounded-full bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20">
+                  <svg viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                    aria-hidden="true"
+                    class="h-6 w-6 fill-zinc-100 stroke-zinc-500 transition group-hover:fill-zinc-200 group-hover:stroke-zinc-700 dark:hidden [@media(prefers-color-scheme:dark)]:fill-teal-50 [@media(prefers-color-scheme:dark)]:stroke-teal-500 [@media(prefers-color-scheme:dark)]:group-hover:fill-teal-50 [@media(prefers-color-scheme:dark)]:group-hover:stroke-teal-600">
+                    <path
+                      d="M8 12.25A4.25 4.25 0 0 1 12.25 8v0a4.25 4.25 0 0 1 4.25 4.25v0a4.25 4.25 0 0 1-4.25 4.25v0A4.25 4.25 0 0 1 8 12.25v0Z">
+                    </path>
+                    <path
+                      d="M12.25 3v1.5M21.5 12.25H20M18.791 18.791l-1.06-1.06M18.791 5.709l-1.06 1.06M12.25 20v1.5M4.5 12.25H3M6.77 6.77 5.709 5.709M6.77 17.73l-1.061 1.061"
+                      fill="none"></path>
+                  </svg>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"
+                    class="hidden h-6 w-6 fill-zinc-700 stroke-zinc-500 transition dark:block [@media(prefers-color-scheme:dark)]:group-hover:stroke-zinc-400 [@media_not_(prefers-color-scheme:dark)]:fill-teal-400/10 [@media_not_(prefers-color-scheme:dark)]:stroke-teal-500">
+                    <path
+                      d="M17.25 16.22a6.937 6.937 0 0 1-9.47-9.47 7.451 7.451 0 1 0 9.47 9.47ZM12.75 7C17 7 17 2.75 17 2.75S17 7 21.25 7C17 7 17 11.25 17 11.25S17 7 12.75 7Z"
+                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </header>
+      <main class="flex-auto">
+        <div class="sm:px-8 mt-16 lg:mt-32">
+          <div class="mx-auto w-full max-w-7xl lg:px-8">
+            <div class="relative px-4 sm:px-8 lg:px-12">
+              <div class="mx-auto max-w-2xl lg:max-w-5xl">
+                <div class="xl:relative">
+                  <div class="mx-auto max-w-2xl">
+                    <article class="mb-12">
+                      <header class="flex flex-col">
+                        <h1 class="mt-6 text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+                          Revisiting Taipei: Scooters, Neon Churches, and Unexpected Reunions</h1>
+                        <span class="order-first flex items-center text-base text-zinc-400 dark:text-zinc-500">
+                          <span class="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"></span>
+                          <span class="text-zinc-500 dark:text-zinc-500 ml-3">Saturday, June 17, 2017</span>
+                        </span>
+                      </header>
+                      <div class="mt-8 prose dark:prose-invert" data-mdx-content="true">
+                        <p>Coming from <a href="/travel/asia/japan/japan-culinary-delights-and-cultural-rites-from-fukuoka-to-tokyo">Japan</a>, where we had the luck of seeing Mount Fuji from the plane, Philipp and I were excited to land in Taipei, Taiwan. It was Philipp’s first time in Taiwan and my first in 32 years. As a child, I spent half a year in Taiwan while my dad worked on a project, so this trip was a nostalgic journey for me.</p>
+
+<h2 id="a-city-of-scooters-and-neon">A City of Scooters and Neon</h2>
+
+<p>Landing at Taipei Airport, we took the train to the city center. Taiwan’s lush greenery was a beautiful contrast to the bustling city of Taipei. One of the first differences we noticed from Japan was the sheer number of scooters in the streets. The traffic, the noise, and the vibrancy were exhilarating.</p>
+
+<p>Our hostel, a cozy place on the fifth floor, offered a dormitory room that we shared with other travelers. After dropping our bags, we ventured out to explore and find dinner. Strangely, we noticed several Catholic churches with neon lights, a stark contrast to the traditional churches we were used to. It might have been the area we stayed in or just a characteristic of Taiwan, but it was certainly memorable.</p>
+
+<h2 id="culinary-adventures-and-market-discoveries">Culinary Adventures and Market Discoveries</h2>
+
+<p>We wandered through local markets, fascinated by the variety of foods on display—chicken feet, gizzards, and more. Our first meal was a bit of a challenge, as the menu was entirely in Chinese, and we relied on Google Translate to navigate it. The difference between Taiwan and Japan was striking. Both countries are close geographically, but culturally, they are worlds apart.</p>
+
+<p>Back at the hostel, we quickly made friends with Sebastian, a fellow German, and Victor, originally from South America but living in the United States. The four of us became inseparable during our time in Taiwan. On one of our first nights out, we visited a local food market, indulging in Taiwan beer and sampling various street foods. I have a photo of Victor with a huge smile, holding a plastic machine gun and karaoke microphones, capturing the fun and carefree spirit of that evening.</p>
+
+<h2 id="serendipity-and-connections">Serendipity and Connections</h2>
+
+<p>One night, we found ourselves in a club, partying with a lively crowd. In a picture from that night, I’m surrounded by Sebastian, Victor, and some others, all bathed in the club’s red lights. It was a wild night, one of those moments where everything aligns for an unforgettable experience.</p>
+
+<p>Fast forward two and a half years later, I was in Japan again, this time traveling alone. I attended a special dinner, where I met my now best friend, Mera. As we were eating, a guy walked in, looked at me, and asked, “Are you Julian?” It was surreal. He remembered me from that night in Taipei, recognizing my ginger beard. He showed me the same grainy photo from the club, a testament to the small and interconnected world we live in.</p>
+
+<p><strong>Secret Local Tip:</strong> When in Taipei, don’t miss the chance to visit the night markets. They offer a vibrant atmosphere, unique street food, and a glimpse into local life. Also, try the Taiwan Beer—it’s a local favorite and pairs perfectly with the market’s snacks.</p>
+
+<h2 id="exploring-beyond-the-urban">Exploring Beyond the Urban</h2>
+
+<p>After a wild night at the club in Taipei, Philipp, Sebastian, Victor, and I decided to explore more of Taiwan beyond its nightlife. With Sebastian being the only one bringing along a driver’s license, he rented a car and we embarked on a memorable road trip.</p>
+
+<p>Our first destination was Yehliu Geopark, famous for its unique rock formations. The hike was a bit challenging due to the rain, and we ended up wearing those ubiquitous plastic raincoats sold everywhere. Despite the weather, the view from the top was stunning. Along the way, we had a bit of fun teasing Victor about potential snake encounters, throwing twigs near him and watching him jump each time. Not our kindest moment, but memorable nonetheless.</p>
+
+<p>After braving the rain, we rewarded ourselves with a meal at Din Tai Fung in Taichung. For those unfamiliar, Din Tai Fung is a renowned chain specializing in Taiwanese dumplings and noodles. It was a treat, especially back then when it was a rare find outside Taiwan and Hong Kong. Today, it’s more widespread, including multiple locations in Singapore, but it still holds a special place in my heart. The dumplings were as delicious as ever, a perfect end to a rainy hike.</p>
+
+<p>The next morning, we drove deeper into the countryside, stopping for breakfast at a local Taiwanese stall. The bean sprout noodles were a hit for most of us, but poor Victor, who didn’t like Asian food, had to stick to his bananas and cookies.</p>
+
+<h2 id="a-palette-of-colors-at-rainbow-village">A Palette of Colors at Rainbow Village</h2>
+
+<p>Our journey continued to the Rainbow Village, a vibrant cluster of houses adorned with colorful murals. It’s a popular tourist spot, and for good reason. The artwork is stunning, and it’s a perfect spot for photos. From there, we headed towards Sun Moon Lake, a beautiful and serene spot despite the persistent rain. We even saw some of the fastest flowing rivers I’ve ever encountered, the water rushing by with a ferocity that was almost mesmerizing.</p>
+
+<h2 id="the-elusive-alishan-and-the-serendipitous-detour">The Elusive Alishan and the Serendipitous Detour</h2>
+
+<p>We had hoped to visit Alishan, a mountain in central Taiwan known for its scenic beauty, but the weather thwarted our plans. The rain and strong winds made the mountain roads too dangerous, and we had to turn back. Disappointed but undeterred, we decided to check out a hot spring that Philipp had found in a travel guide.</p>
+
+<p>The hot spring adventure required another drive into the hills near Taipei. Despite the rain and the challenging trek through the jungle, it was worth every effort. The hot springs were a perfect antidote to the chilly weather. The water was so hot in some spots that you couldn’t even get in, but other areas were just right, especially with the cold rain falling. We found a spot where the hot spring water mixed with a waterfall, creating the perfect temperature. The lush greenery around us was breathtaking, and the entire experience was incredibly rejuvenating.</p>
+
+<p>Looking at the pictures from that trip, the memories flood back. The greens of the jungle, the laughter, the teasing, the moments of awe at nature’s beauty – it was all part of what made this trip so special. The photos, mostly green with streams running through, capture the essence of Taiwan’s stunning landscapes. And those of us in the hot springs, well, those are staying private, but they remind me of how much fun we had.</p>
+
+<h2 id="culinary-quests-in-search-of-the-perfect-dumpling">Culinary Quests: In Search of the Perfect Dumpling</h2>
+
+<p>Our time in Taiwan was an adventure filled with new experiences and old memories. After our road trip and the hot spring escapades, we headed back to Taipei. Determined to find the best dumplings, we scoured the city and eventually stumbled upon a gem. The dumplings were absolutely delicious, though I have no idea what was in them since the menu was entirely in Chinese, and Google Translate was only partially helpful. It was a mystery meal, but a satisfying one.</p>
+
+<h2 id="the-view-from-elephant-mountain">The View from Elephant Mountain</h2>
+
+<p>We continued our exploration with a trip to the northern coast, hiking near the ocean and enjoying more local delicacies. One memorable evening, Philipp and I hiked up Elephant Mountain, a popular spot for stunning views of the Taipei skyline, including the iconic Taipei 101. Once the tallest building in the world, Taipei 101 is an engineering marvel with a massive steel pendulum hanging inside to stabilize it during earthquakes. The view from Elephant Mountain was breathtaking, with the city lights twinkling against the night sky.</p>
+
+<p>Our journey in Taiwan was not without its humorous moments. For instance, Sebastian got quite nervous when we returned the rental car and noticed some minor damage on the front. Luckily, the rental agent didn’t seem to care, and we returned the car without any issues.</p>
+
+<h2 id="moving-on">Moving On</h2>
+
+<p>From Taiwan, we made our way to <a href="/travel/asia/hongkong/short-but-sweet-a-hong-kong-stopover">Hong Kong</a>, albeit for a short stay. Hong Kong has always been a city I love, having visited multiple times throughout my life. This time, it was even more special because we reunited with Sebastian, who had moved to Hong Kong and married a local girl. But that’s a story for another time.</p>
+
+                      </div>
+                    </article>
+                    <div>
+                      <script src="https://giscus.app/client.js" data-repo="jlxq0/locolust.com"
+                        data-repo-id="R_kgDOLDanWQ" data-category="Website Comments"
+                        data-category-id="DIC_kwDOLDanWc4Cckvm" data-mapping="pathname" data-strict="0"
+                        data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="dark"
+                        data-lang="en" data-loading="lazy" crossorigin="anonymous" async>
+                        </script>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="mt-32 flex-none">
+        <div class="sm:px-8">
+  <div class="mx-auto w-full max-w-7xl lg:px-8">
+    <div class="border-t border-zinc-100 pb-16 pt-10 dark:border-zinc-700/40">
+      <div class="relative px-4 sm:px-8 lg:px-12">
+        <div class="mx-auto max-w-2xl lg:max-w-5xl">
+          <div class="flex flex-col items-center justify-between gap-6 sm:flex-row">
+            <div
+              class="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
+              <a class="transition hover:text-teal-500 dark:hover:text-teal-400" href="/about">About</a>
+            </div>
+            <p class="text-sm text-zinc-600 dark:text-zinc-400">
+              © 2024 Julian Lindner. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </footer>
+    </div>
+  </div>
+  <script>
+  var themeToggleBtn = document.getElementById('theme-toggle');
+
+  themeToggleBtn.addEventListener('click', function () {
+    if (document.documentElement.classList.contains('dark')) {
+      document.documentElement.classList.remove('dark');
+      localStorage.setItem('color-theme', 'light');
+      changeGiscusTheme('light');
+    } else {
+      document.documentElement.classList.add('dark');
+      localStorage.setItem('color-theme', 'dark');
+      changeGiscusTheme('dark');
+    }
+  });
+
+  function toggleMenu() {
+    var menu = document.getElementById("mainmenu");
+    menu.classList.toggle("hidden");
+  }
+</script>
+
+</body>
+
+</html>
