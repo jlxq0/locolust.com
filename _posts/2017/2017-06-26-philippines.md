@@ -68,4 +68,4 @@ The next day, I spent my remaining time in El Nido before heading back to Manila
 
 In Manila, I returned to the same hotel and room at the Shangri-La. I did a bit of sightseeing, visiting places like Plaza de Roma with its European-style architecture. I also met up with a local through Couchsurfing, who introduced me to the local market and encouraged me to try balut, a traditional Filipino delicacy that is essentially a fertilized duck egg. The combination of meat and egg flavors was unique and a bit challenging, but it was an experience worth having.
 
-After another excellent breakfast at the Shangri-La, I flew to Kuala Lumpur. But those stories are for another time.
+After another excellent breakfast at the Shangri-La, I flew to [Kuala Lumpur]({% post_url 2017/2017-07-20-kualalumpur %}). But those stories are for another time.
