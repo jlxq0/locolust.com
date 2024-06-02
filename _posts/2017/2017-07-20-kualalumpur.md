@@ -46,4 +46,4 @@ The journey back was a bit rushed, as I had a flight to catch from Johor Bahru I
 
 ## Looking Ahead
 
-Penang was just the next stop on a journey that would take me through Thailand, including Ko Tao and Bangkok, and eventually the famous pancake trail followed by many backpackers. But those stories are for another time.
+Penang was just the next stop on a journey that would take me through Thailand, including Ko Tao and [Bangkok]({% post_url 2017/2017-07-26-georgetown %}), and eventually the famous pancake trail followed by many backpackers. But those stories are for another time.
