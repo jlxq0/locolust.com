@@ -66,13 +66,6 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-<<<<<<< HEAD
-    nokogiri (1.16.5-arm64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.16.5-x86_64-linux)
-      racc (~> 1.4)
-=======
->>>>>>> d4541b9 (Gemfile)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.0.5)
@@ -82,22 +75,6 @@ GEM
       ffi (~> 1.0)
     rexml (3.2.8)
       strscan (>= 3.0.9)
-<<<<<<< HEAD
-    rouge (3.30.0)
-    ruby-rc4 (0.1.5)
-    safe_yaml (1.0.5)
-    sassc (2.4.0)
-      ffi (~> 1.9)
-    strscan (3.1.0)
-    terminal-table (2.0.0)
-      unicode-display_width (~> 1.1, >= 1.1.1)
-    timers (4.3.5)
-    ttfunk (1.8.0)
-      bigdecimal (~> 3.1)
-    typhoeus (1.4.1)
-      ethon (>= 0.9.0)
-    unicode-display_width (1.8.0)
-=======
     rouge (4.2.1)
     safe_yaml (1.0.5)
     sass-embedded (1.77.4)
@@ -149,7 +126,6 @@ GEM
     terminal-table (3.0.2)
       unicode-display_width (>= 1.1.1, < 3)
     unicode-display_width (2.5.0)
->>>>>>> d4541b9 (Gemfile)
     webrick (1.8.1)
 
 PLATFORMS
