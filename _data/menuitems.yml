@@ -4,6 +4,8 @@ asia:
   countries:
     - title: "Bhutan"
       url: "/travel/asia/bhutan"
+    - title: "Cambodia"
+      url: "/travel/asia/cambodia"
     - title: "Hong Kong"
       url: "/travel/asia/hongkong"
     - title: "Japan"
