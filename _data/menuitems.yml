@@ -1,3 +1,15 @@
+africa:
+  title: "Africa"
+  url: "/travel/africa"
+  countries:
+    - title: "Kenya"
+      url: "/travel/africa/kenya"
+americas:
+  title: "Americas"
+  url: "/travel/americas"
+  countries:
+    - title: "United States"
+      url: "/travel/americas/usa"
 asia:
   title: "Asia"
   url: "/travel/asia"
@@ -26,12 +38,6 @@ asia:
       url: "/travel/asia/thailand"
     - title: "Vietnam"
       url: "/travel/asia/vietnam"
-africa:
-  title: "Africa"
-  url: "/travel/africa"
-  countries:
-    - title: "Kenya"
-      url: "/travel/africa/kenya"
 europe:
   title: "Europe"
   url: "/travel/europe"
