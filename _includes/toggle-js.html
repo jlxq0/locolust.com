@@ -17,4 +17,46 @@
     var menu = document.getElementById("mainmenu");
     menu.classList.toggle("hidden");
   }
+
+  // Flyout menu handling
+  (function() {
+    var menuItems = document.querySelectorAll('[data-menu-item]');
+    var closeTimeout;
+
+    menuItems.forEach(function(item) {
+      var dropdown = item.querySelector('[data-menu-dropdown]');
+      if (!dropdown) return;
+
+      function showDropdown() {
+        clearTimeout(closeTimeout);
+        // Hide all other dropdowns
+        menuItems.forEach(function(other) {
+          var otherDropdown = other.querySelector('[data-menu-dropdown]');
+          if (otherDropdown && otherDropdown !== dropdown) {
+            otherDropdown.classList.add('opacity-0', 'invisible', '-translate-y-1');
+            otherDropdown.classList.remove('opacity-100', 'visible', 'translate-y-0');
+          }
+        });
+        // Show this dropdown
+        dropdown.classList.remove('opacity-0', 'invisible', '-translate-y-1');
+        dropdown.classList.add('opacity-100', 'visible', 'translate-y-0');
+      }
+
+      function hideDropdown() {
+        closeTimeout = setTimeout(function() {
+          dropdown.classList.add('opacity-0', 'invisible', '-translate-y-1');
+          dropdown.classList.remove('opacity-100', 'visible', 'translate-y-0');
+        }, 100);
+      }
+
+      item.addEventListener('mouseenter', showDropdown);
+      item.addEventListener('mouseleave', hideDropdown);
+
+      // Keep dropdown open when hovering over it
+      dropdown.addEventListener('mouseenter', function() {
+        clearTimeout(closeTimeout);
+      });
+      dropdown.addEventListener('mouseleave', hideDropdown);
+    });
+  })();
 </script>

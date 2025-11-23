@@ -18,6 +18,13 @@ module.exports = {
     'rounded-b-lg',
     'text-teal-500',
     'dark:text-teal-400',
+    // Flyout menu classes (dynamically added via JS)
+    'opacity-0',
+    'opacity-100',
+    'invisible',
+    'visible',
+    '-translate-y-1',
+    'translate-y-0',
   ],
   darkMode: 'class',
   theme: {
