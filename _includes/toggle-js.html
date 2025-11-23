@@ -18,10 +18,16 @@
     menu.classList.toggle("hidden");
   }
 
-  // Flyout menu handling
+  // Flyout menu handling - enhances CSS hover with better UX
   (function() {
     var menuItems = document.querySelectorAll('[data-menu-item]');
     var closeTimeout;
+
+    // Mark as JS-enhanced to disable CSS group-hover (optional refinement)
+    menuItems.forEach(function(item) {
+      item.classList.remove('group');
+      item.classList.add('js-menu');
+    });
 
     menuItems.forEach(function(item) {
       var dropdown = item.querySelector('[data-menu-dropdown]');
@@ -33,20 +39,20 @@
         menuItems.forEach(function(other) {
           var otherDropdown = other.querySelector('[data-menu-dropdown]');
           if (otherDropdown && otherDropdown !== dropdown) {
-            otherDropdown.classList.add('opacity-0', 'invisible', '-translate-y-1');
-            otherDropdown.classList.remove('opacity-100', 'visible', 'translate-y-0');
+            otherDropdown.classList.add('opacity-0', 'invisible');
+            otherDropdown.classList.remove('opacity-100', 'visible');
           }
         });
         // Show this dropdown
-        dropdown.classList.remove('opacity-0', 'invisible', '-translate-y-1');
-        dropdown.classList.add('opacity-100', 'visible', 'translate-y-0');
+        dropdown.classList.remove('opacity-0', 'invisible');
+        dropdown.classList.add('opacity-100', 'visible');
       }
 
       function hideDropdown() {
         closeTimeout = setTimeout(function() {
-          dropdown.classList.add('opacity-0', 'invisible', '-translate-y-1');
-          dropdown.classList.remove('opacity-100', 'visible', 'translate-y-0');
-        }, 100);
+          dropdown.classList.add('opacity-0', 'invisible');
+          dropdown.classList.remove('opacity-100', 'visible');
+        }, 150);
       }
 
       item.addEventListener('mouseenter', showDropdown);
