@@ -109,7 +109,7 @@
 
                       -->
                       <a class="relative block px-3 py-2 transition {{ classlist }} hover:text-teal-500 dark:hover:text-teal-400" href="{{ menuitem.url }}">{{ menuitem.title }}<span class="absolute {{ activeclasses }}"></span></a>
-                      <ul class="absolute left-0 w-48 mt-2 space-y-2 bg-white text-zinc-800 rounded-lg shadow-md dark:bg-zinc-800 dark:text-zinc-200 transition-opacity duration-200 opacity-0 group-hover:opacity-100">
+                      <ul class="absolute left-0 w-48 mt-2 space-y-2 bg-white text-zinc-800 rounded-lg shadow-md dark:bg-zinc-800 dark:text-zinc-200 transition-opacity duration-200 opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto">
                         {% assign j = 1 %}
                         {% assign classlist2 = "" %}
                         {% for subitem in subitems %}
