@@ -18,11 +18,6 @@ module.exports = {
     'rounded-b-lg',
     'text-teal-500',
     'dark:text-teal-400',
-    // Flyout menu classes (used by CSS hover and JS enhancement)
-    'opacity-0',
-    'opacity-100',
-    'invisible',
-    'visible',
   ],
   darkMode: 'class',
   theme: {
