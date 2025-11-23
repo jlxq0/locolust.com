@@ -101,36 +101,33 @@
                       {% assign activeclasses = "inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0 dark:from-teal-400/0 dark:via-teal-400/40 dark:to-teal-400/0" %}
                     {% endif %}
                     <li class="group relative">
-                      <!-- add this when active:
-
-                        <a class="relative block px-3 py-2 transition text-teal-500 dark:text-teal-400"
-                          href="/">Home<span class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0 dark:from-teal-400/0 dark:via-teal-400/40 dark:to-teal-400/0"></span>
-                        </a>
-
-                      -->
                       <a class="relative block px-3 py-2 transition {{ classlist }} hover:text-teal-500 dark:hover:text-teal-400" href="{{ menuitem.url }}">{{ menuitem.title }}<span class="absolute {{ activeclasses }}"></span></a>
-                      <ul class="absolute left-0 top-full w-48 mt-2 space-y-2 bg-white text-zinc-800 rounded-lg shadow-md dark:bg-zinc-800 dark:text-zinc-200 transition-opacity duration-200 opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto before:absolute before:-top-2 before:left-0 before:right-0 before:h-2 before:content-['']">
-                        {% assign j = 1 %}
-                        {% assign classlist2 = "" %}
-                        {% for subitem in subitems %}
-                        {% if subitems.size == 1 %}
-                          {% assign classlist2 = "rounded-lg" %}
-                        {% elsif j == 1 %}
-                          {% assign classlist2 = "rounded-t-lg" %}
-                        {% elsif j == subitems.size %}
-                          {% assign classlist2 = "rounded-b-lg" %}
-                        {% else %}
+                      {% if subitems.size > 0 %}
+                      <div class="absolute left-0 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150">
+                        <ul class="w-48 py-1 bg-white text-zinc-800 rounded-lg shadow-lg ring-1 ring-zinc-900/5 dark:bg-zinc-800 dark:text-zinc-200 dark:ring-white/10">
+                          {% assign j = 1 %}
                           {% assign classlist2 = "" %}
-                        {% endif %}
-                        {% if subitem.url == page.url %}
-                          {% assign classlist2 = classlist2 | append: " text-teal-500 dark:text-teal-400" %}
-                        {% endif %}
-                          <li>
-                            <a class="block {{ classlist2 }} px-4 py-2 transition hover:bg-zinc-100 dark:hover:bg-zinc-700" href="{{ subitem.url }}">{{ subitem.title }}</a>
-                          </li>
-                          {% assign j = j | plus: 1 %}
-                        {% endfor %}
-                      </ul>
+                          {% for subitem in subitems %}
+                          {% if subitems.size == 1 %}
+                            {% assign classlist2 = "rounded-lg" %}
+                          {% elsif j == 1 %}
+                            {% assign classlist2 = "first:rounded-t-lg" %}
+                          {% elsif j == subitems.size %}
+                            {% assign classlist2 = "last:rounded-b-lg" %}
+                          {% else %}
+                            {% assign classlist2 = "" %}
+                          {% endif %}
+                          {% if subitem.url == page.url %}
+                            {% assign classlist2 = classlist2 | append: " text-teal-500 dark:text-teal-400" %}
+                          {% endif %}
+                            <li>
+                              <a class="block {{ classlist2 }} px-4 py-2 transition hover:bg-zinc-100 hover:text-teal-500 dark:hover:bg-zinc-700 dark:hover:text-teal-400" href="{{ subitem.url }}">{{ subitem.title }}</a>
+                            </li>
+                            {% assign j = j | plus: 1 %}
+                          {% endfor %}
+                        </ul>
+                      </div>
+                      {% endif %}
                     </li>
                     {% assign i = i | plus: 1 %}
                   {% endfor %}
